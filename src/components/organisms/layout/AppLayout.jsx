@@ -11,7 +11,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
 
   //  Concatinated this to avoid rendering multiple nodes in the title tag
 
-  const title = `${meta.title && meta.title} | SmartSaver`;
+  const title = ` SmartSaver`;
 
   return (
     <div style={{ maxWidth: "1440px", marginInline: "auto" }}>
@@ -24,7 +24,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
           content=": Reliable Savings &amp; Digital Banking Platform"
         />
         <meta property="og:description" content={meta.description} />
-        <meta property="og:title" content={meta.title} />
+        <meta property="og:title" content={title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="" />
