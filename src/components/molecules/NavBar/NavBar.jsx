@@ -1,7 +1,7 @@
 import SmartLinks from "../../atoms/SmartLinks";
 import Button from "../../atoms/Button";
 import SmartLogo from "../../../../public/SmartSaverLogo.svg";
-import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
+import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { useState } from "react";
 
 export const NavBar = () => {
@@ -20,8 +20,8 @@ export const NavBar = () => {
               <SmartLogo className="  w-44 md:w-56" />
             </SmartLinks>
           </div>
-          <div onClick={navHandler} className="md:hidden cursor-pointer z-20">
-            {nav ? <HiOutlineX size={34} /> : <HiOutlineMenu size={34} />}
+          <div onClick={navHandler} className="md:hidden cursor-pointer z-20 ">
+            {nav ? <HiOutlineX size={34} /> : <HiOutlineMenuAlt3 size={34} />}
           </div>
 
           <div
