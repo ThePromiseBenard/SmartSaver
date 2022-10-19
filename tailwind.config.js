@@ -14,6 +14,8 @@ module.exports = {
         smartBlue: "#2F80ED",
         smartGrayBg: "#F7F8F9",
         smartgraybutton: "#3A475B",
+        smartFooterBg: "#1C232D",
+        smartFooter: "#EEEFF4",
       },
 
       fontFamily: {

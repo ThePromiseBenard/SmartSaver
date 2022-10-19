@@ -10,7 +10,8 @@ body {
 
 .containerBox {
   max-width: 100%;
-  margin: 0 15px;
+  margin: 0;
+  padding: 0 15px;
 }
 @media screen and (min-width: 640px) {
   .containerBox {
@@ -21,7 +22,7 @@ body {
 
 @media (min-width: 768px) {
   .containerBox {
-    max-width: 710px;
+    max-width: 910px;
   }
 }
 
@@ -33,7 +34,7 @@ body {
 
 @media (min-width: 1280px) {
   .containerBox {
-    max-width: 1140px;
+    max-width: 1270px;
   }
 }
 

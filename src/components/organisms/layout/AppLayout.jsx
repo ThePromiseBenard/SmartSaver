@@ -1,5 +1,7 @@
 //@ts-nocheck
 import Head from "next/head";
+import Footer from "../../molecules/Footer";
+import NavBar from "../../molecules/NavBar";
 
 export const AppLayout = ({ children, ...customMeta }) => {
   const meta = {
@@ -32,9 +34,10 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta name="twitter:description" content={meta.description} />
       </Head>
       {/* Header component Goes here */}
-
+      <NavBar />
       <main>{children}</main>
       {/* Footer component goes here */}
+      <Footer/>
     </div>
   );
 };
