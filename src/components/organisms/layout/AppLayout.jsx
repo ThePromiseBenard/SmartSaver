@@ -14,7 +14,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
   const title = ` SmartSaver`;
 
   return (
-    <div style={{ maxWidth: "1440px", marginInline: "auto" }}>
+    <div style={{ maxWidth: "", marginInline: "auto" }}>
       <Head>
         <title>{title}</title>
         <meta content={meta.description} name="description" />
