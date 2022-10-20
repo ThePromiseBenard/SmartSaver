@@ -24,6 +24,7 @@ export const Footer = () => {
 
             <div className="text-sm md:text-base font-medium capitalize flex flex-col gap-5 justify-center">
               <SmartLinks url="/company">about us</SmartLinks>
+
               <a
                 href="https://smartsaver.zohorecruit.com/careers"
                 target="_blank"
@@ -31,6 +32,7 @@ export const Footer = () => {
               >
                 careers
               </a>
+              <SmartLinks url="/ambassador">become an ambassador</SmartLinks>
               <SmartLinks url="/faq">FAQ</SmartLinks>
               <a
                 href="https://smartsaver-ng.medium.com/"
@@ -39,7 +41,6 @@ export const Footer = () => {
               >
                 blog
               </a>
-              <SmartLinks url="/ambassador">become an ambassador</SmartLinks>
             </div>
           </div>
           <div className="py-4">
@@ -52,6 +53,7 @@ export const Footer = () => {
               <p>investments</p>
               <p>bill payments</p>
               <p>loans</p>
+              <p>Insurance </p>
             </div>
           </div>
         </div>
