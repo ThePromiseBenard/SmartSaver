@@ -11,7 +11,12 @@ const Button = ({ variant, children }) => {
       return (
         <SmartLinks url="https://www.apple.com/app-store/">
           <button className="bg-smartOrange p-2 rounded-md relative w-20  md:w-28 lg:w-32">
-            <SmartImage src={appleWhite} alt="apple logo" priority={true} />
+            <SmartImage
+              src={appleWhite}
+              alt="apple logo"
+              priority={true}
+              className="h-full"
+            />
           </button>
         </SmartLinks>
       );
@@ -20,7 +25,12 @@ const Button = ({ variant, children }) => {
       return (
         <SmartLinks url="https://www.apple.com/app-store/">
           <button className=" bg-smartgraybutton p-2 rounded-md relative w-20  md:w-28 lg:w-32">
-            <SmartImage src={appleWhite} alt="apple logo" priority={true} />
+            <SmartImage
+              src={appleWhite}
+              alt="apple logo"
+              priority={true}
+              className="h-full"
+            />
           </button>
         </SmartLinks>
       );

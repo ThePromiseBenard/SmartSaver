@@ -36,10 +36,20 @@ body {
   .containerBox {
     max-width: 1270px;
   }
+  .cautionClass {
+    padding-left: 5rem;
+  }
 }
 
 @media (min-width: 1536px) {
   .containerBox {
     max-width: 1260px;
+  }
+  .heroContainer {
+    max-width: 1260px;
+    margin-inline: auto;
+  }
+  .cautionClass {
+    padding-left: 1rem;
   }
 }

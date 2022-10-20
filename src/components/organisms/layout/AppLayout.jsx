@@ -37,7 +37,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
       <NavBar />
       <main>{children}</main>
       {/* Footer component goes here */}
-      <Footer/>
+      <Footer />
     </div>
   );
 };

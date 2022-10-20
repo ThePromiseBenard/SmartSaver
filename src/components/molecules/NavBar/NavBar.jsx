@@ -4,7 +4,7 @@ import SmartLogo from "../../../../public/SmartSaverLogo.svg";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { useState } from "react";
 
-export const NavBar = () => {
+export const NavBar = ({className}) => {
   const [nav, setNav] = useState(false);
 
   const navHandler = () => {
@@ -12,12 +12,12 @@ export const NavBar = () => {
   };
 
   return (
-    <nav>
-      <div className="  py-4 bg-transparent  absolute w-full ">
-        <div className="containerBox flex items-center justify-between  relative gap-4">
+    <nav className={className}>
+      <div className="  py-4 bg-transparent  absolute w-full">
+        <div className="containerBox flex items-center justify-between gap-4">
           <div className=" z-20">
             <SmartLinks url="/">
-              <SmartLogo className="  w-44 md:w-56" />
+              <SmartLogo className="" />
             </SmartLinks>
           </div>
           <div onClick={navHandler} className="md:hidden cursor-pointer z-20 ">
@@ -27,7 +27,7 @@ export const NavBar = () => {
           <div
             className={
               nav
-                ? "   transition-all ease-in  delay-150  absolute md:static md:h-auto  h-screen w-full  bottom-0 top-0 right-0 left-0 flex flex-col md:flex-row gap-8 md:items-center z-10  pt-28 px-4 md:p-0 "
+                ? "   transition-all ease-in  delay-150  absolute md:static md:h-auto bg-white  min-h-screen w-full   inset-0  flex flex-col md:flex-row gap-8 md:items-center z-10  pt-28 px-4 md:p-0 "
                 : "   transition-all ease-in  delay-150 -translate-x-full md:-translate-x-0 absolute md:static md:h-auto  h-screen w-full  bottom-0 top-0 right-0 left-0 flex flex-col md:flex-row gap-8 md:items-center z-10  pt-28 px-4 md:p-0 "
             }
           >
