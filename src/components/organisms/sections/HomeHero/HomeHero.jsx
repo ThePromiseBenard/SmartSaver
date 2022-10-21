@@ -5,7 +5,7 @@ import Capricon from "../../../../../public/capricon2.png";
 import Sterling from "../../../../../public/sterling2.png";
 import Providous from "../../../../../public/providus2.png";
 import Firstcapitol from "../../../../../public/FirstCapitol2.png";
-import HeaderUnderline from "../../../../../public/underline.png";
+import HeaderUnderline from "../../../../../public/Underline.png";
 import HeroImage from "../../../../../public/HomeHero Image2.png";
 import SmartImage from "../../../atoms/SmartImage";
 import Button from "../../../atoms/Button";
