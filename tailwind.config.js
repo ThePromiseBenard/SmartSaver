@@ -16,6 +16,9 @@ module.exports = {
         smartgraybutton: "#3A475B",
         smartFooterBg: "#1C232D",
         smartFooter: "#EEEFF4",
+        smartOrangeIcon: "#F15A221A",
+        smartPurpleIcon: "#6563FF1A",
+        smartBlueIcon: "#2F80ED1A",
       },
 
       fontFamily: {
