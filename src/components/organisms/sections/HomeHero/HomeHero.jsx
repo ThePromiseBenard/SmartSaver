@@ -39,7 +39,7 @@ export const HomeHero = () => {
             <Button variant="playOrange" />
           </div>
         </div>
-        <div className="w-full bg-white h-16  md:pr-32 md:h-28 flex items-center gap-2 md:gap-8 containerBox cautionClass z-[5]">
+        <div className="w-full bg-white h-16  md:pr-32 md:h-20 flex items-center gap-2 md:gap-8 containerBox cautionClass">
           <SmartImage src={Paystack} />
           <SmartImage src={Capricon} />
           <SmartImage src={Sterling} />
