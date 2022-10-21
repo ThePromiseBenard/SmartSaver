@@ -1,6 +1,6 @@
 import SmartImage from "../../../atoms/SmartImage";
 import CardText from "../../../molecules/CardText";
-import ControlImage from "../../../../../public/control.png";
+import ControlImage from "../../../../../public/ImageTest.png";
 import Text from "../../../atoms/Text";
 
 export const ControlLife = () => {
