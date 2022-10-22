@@ -1,3 +1,4 @@
+import Community from "../../sections/Community";
 import ControlLife from "../../sections/ControlLife";
 import { FeaturesSection } from "../../sections/FeaturesSection/FeaturesSection";
 import GetStarted from "../../sections/GetStarted";
@@ -9,7 +10,7 @@ import SeamlessPayments from "../../sections/SeamleesPayments";
 
 export const Home = () => {
   return (
-    <div className="space-y-16 md:space-y-40">
+    <div className="space-y-16 md:space-y-40 mb-32 md:mb-64">
       <HomeHero />
       <FeaturesSection />
       <InstantLoan />
@@ -17,7 +18,8 @@ export const Home = () => {
       <ControlLife />
       <SavingWays />
       <GetStarted />
-      <News/>
+      <News />
+      <Community />
     </div>
   );
 };

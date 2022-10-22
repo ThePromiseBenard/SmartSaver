@@ -20,6 +20,7 @@ module.exports = {
         smartPurpleIcon: "#6563FF1A",
         smartBlueIcon: "#2F80ED1A",
         smartSaver: "#676767",
+        smartCommunity: "#F6F8F9",
       },
 
       fontFamily: {

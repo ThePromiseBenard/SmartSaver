@@ -71,6 +71,15 @@ const Button = ({ variant, children }) => {
         </SmartLinks>
       );
 
+    case "community":
+      return (
+        <SmartLinks url="https://www.facebook.com/groups/498286373844460/?ref=share_group_link">
+          <button className=" bg-smartOrange font-medium py-2 px-4 md:py-4 text-white md:px-2 rounded-md relative    lg:w-44">
+            Join The Community
+          </button>
+        </SmartLinks>
+      );
+
     default:
       return <button className=" bg-white text-red-800 p-2">{children}</button>;
   }
