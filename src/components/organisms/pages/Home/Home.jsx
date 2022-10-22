@@ -1,7 +1,9 @@
 import ControlLife from "../../sections/ControlLife";
 import { FeaturesSection } from "../../sections/FeaturesSection/FeaturesSection";
+import GetStarted from "../../sections/GetStarted";
 import HomeHero from "../../sections/HomeHero";
 import { InstantLoan } from "../../sections/InstantLoan/InstantLoan";
+import News from "../../sections/News";
 import SavingWays from "../../sections/SavingWays";
 import SeamlessPayments from "../../sections/SeamleesPayments";
 
@@ -14,6 +16,8 @@ export const Home = () => {
       <SeamlessPayments />
       <ControlLife />
       <SavingWays />
+      <GetStarted />
+      <News/>
     </div>
   );
 };

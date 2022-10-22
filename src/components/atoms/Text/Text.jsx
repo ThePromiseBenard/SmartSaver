@@ -29,6 +29,20 @@ export const Text = ({ children, level, color, className }) => {
           {children}
         </p>
       );
+
+    case 3:
+      return (
+        <p
+          className={clsx(
+            `text-base md:text-lg lg:text-xl ${
+              color === "white" ? " text-white " : "text-smartGray"
+            }`,
+            className
+          )}
+        >
+          {children}
+        </p>
+      );
     default:
       return (
         <p

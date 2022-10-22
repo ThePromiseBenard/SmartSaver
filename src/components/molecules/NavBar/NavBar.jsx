@@ -1,10 +1,11 @@
 import SmartLinks from "../../atoms/SmartLinks";
 import Button from "../../atoms/Button";
-import SmartLogo from "../../../../public/SmartSaverLogo.svg";
+import SmartLogo from "../../../../public/SmartLogoMain.png";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 import { useState } from "react";
+import SmartImage from "../../atoms/SmartImage";
 
-export const NavBar = ({className}) => {
+export const NavBar = ({ className }) => {
   const [nav, setNav] = useState(false);
 
   const navHandler = () => {
@@ -17,7 +18,7 @@ export const NavBar = ({className}) => {
         <div className="containerBox flex items-center justify-between gap-4">
           <div className=" z-20">
             <SmartLinks url="/">
-              <SmartLogo className="" />
+              <SmartImage src={SmartLogo} alt="Smart saver Logo" />
             </SmartLinks>
           </div>
           <div onClick={navHandler} className="md:hidden cursor-pointer z-20 ">
