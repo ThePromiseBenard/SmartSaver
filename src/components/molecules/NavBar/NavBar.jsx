@@ -18,7 +18,9 @@ export const NavBar = ({ className }) => {
         <div className="containerBox flex items-center justify-between gap-4">
           <div className=" z-20">
             <SmartLinks url="/">
-              <SmartImage src={SmartLogo} alt="Smart saver Logo" />
+              <div className="w-40 md:w-52">
+                <SmartImage src={SmartLogo} alt="Smart saver Logo" />
+              </div>
             </SmartLinks>
           </div>
           <div onClick={navHandler} className="md:hidden cursor-pointer z-20 ">
