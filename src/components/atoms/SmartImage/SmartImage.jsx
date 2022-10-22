@@ -1,16 +1,14 @@
 import Image from "next/future/image";
-import clsx from "clsx";
+const css = { maxWidth: "100%", height: "auto" };
 
 export const SmartImage = ({ src, alt, priority = false, className }) => {
   return (
-    <div className={clsx("relative flex items-end justify-center", className)}>
-      <Image
-        placeholder="blur"
-        src={src}
-        alt={alt}
-        layout="responsive"
-        priority={priority}
-      />
-    </div>
+    <Image
+      placeholder="blur"
+      src={src}
+      alt={alt}
+      priority={priority}
+      style={css}
+    />
   );
 };

@@ -20,7 +20,7 @@ export const FeatureLeft = ({ className }) => {
     },
   ];
   return (
-    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-28", className)}>
+    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-28 xl:mt-16", className)}>
       {featuresContent.map((item) => (
         <Features
           title={item.title}

@@ -10,7 +10,7 @@ const Button = ({ variant, children }) => {
     case "appleOrange":
       return (
         <SmartLinks url="https://www.apple.com/app-store/">
-          <button className="bg-smartOrange p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className="bg-smartOrange py-2 px-4 rounded-md relative w-32   lg:w-44">
             <SmartImage
               src={appleWhite}
               alt="apple logo"
@@ -24,7 +24,7 @@ const Button = ({ variant, children }) => {
     case "appleDark":
       return (
         <SmartLinks url="https://www.apple.com/app-store/">
-          <button className=" bg-smartgraybutton p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className=" bg-smartgraybutton py-2 px-4  rounded-md relative w-32   lg:w-40">
             <SmartImage
               src={appleWhite}
               alt="apple logo"
@@ -38,7 +38,7 @@ const Button = ({ variant, children }) => {
     case "appleLight":
       return (
         <SmartLinks url="https://www.apple.com/app-store/">
-          <button className=" bg-white p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className=" bg-white py-2 px-4 rounded-md relative w-32   lg:w-40">
             <SmartImage src={appleBlack} alt="apple logo" priority={true} />
           </button>
         </SmartLinks>
@@ -47,7 +47,7 @@ const Button = ({ variant, children }) => {
     case "playOrange":
       return (
         <SmartLinks url="https://play.google.com/store/games">
-          <button className=" bg-smartOrange p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className=" bg-smartOrange p-2 rounded-md relative w-32   lg:w-44">
             <SmartImage src={playWhite} alt="apple logo" priority={true} />
           </button>
         </SmartLinks>
@@ -56,7 +56,7 @@ const Button = ({ variant, children }) => {
     case "playDark":
       return (
         <SmartLinks url="https://play.google.com/store/games">
-          <button className=" bg-smartgraybutton p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className=" bg-smartgraybutton p-2 rounded-md relative w-32   lg:w-40">
             <SmartImage src={playWhite} alt="apple logo" priority={true} />
           </button>
         </SmartLinks>
@@ -65,7 +65,7 @@ const Button = ({ variant, children }) => {
     case "playLight":
       return (
         <SmartLinks url="https://play.google.com/store/games">
-          <button className=" bg-white p-2 rounded-md relative w-20  md:w-28 lg:w-32">
+          <button className=" bg-white p-2 rounded-md relative w-32   lg:w-40">
             <SmartImage src={playBlack} alt="apple logo" priority={true} />
           </button>
         </SmartLinks>

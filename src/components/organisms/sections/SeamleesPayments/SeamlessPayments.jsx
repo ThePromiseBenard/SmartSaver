@@ -6,7 +6,7 @@ import Text from "../../../atoms/Text";
 export const SeamlessPayments = () => {
   return (
     <div className="containerBox grid md:grid-cols-2 gap-4 md:gap-16 ">
-      <div className="bg-smartOrange pt-4 px-4 rounded-lg md:col-start-2 ">
+      <div className="bg-smartOrange pt-4 px-4 rounded-2xl md:col-start-2 md:px-8 md:pt-8  2xl:w-[529px]">
         <SmartImage src={PaymentImage} alt="payments image" />
       </div>
       <div className="flex justify-center items-center md:col-start-1 md:row-start-1 max-w-[500px]">
