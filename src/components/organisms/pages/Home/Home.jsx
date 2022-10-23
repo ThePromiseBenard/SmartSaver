@@ -11,7 +11,7 @@ import VideoSection from "../../sections/VideoSection";
 
 export const Home = () => {
   return (
-    <div className="space-y-16 md:space-y-40 mb-32 md:mb-64">
+    <div className="">
       <HomeHero />
       <FeaturesSection />
       <InstantLoan />

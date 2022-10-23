@@ -7,7 +7,7 @@ import SmartImage from "../../../atoms/SmartImage";
 
 export const FeaturesSection = () => {
   return (
-    <div className="space-y-16 containerBox">
+    <div className="space-y-16 containerBox ">
       <div className="text-center space-y-4">
         <Heading level={3}>Built With You In Mind</Heading>
         <Text level={1} className="max-w-[919px] mx-auto">
@@ -16,9 +16,9 @@ export const FeaturesSection = () => {
           enim a est.
         </Text>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:pb-28 pb-14">
         <FeaturesLeft />
-        <div className="hidden lg:block" >
+        <div className="hidden lg:block">
           <SmartImage src={featureImage} />
         </div>
         <FeaturesRight />
