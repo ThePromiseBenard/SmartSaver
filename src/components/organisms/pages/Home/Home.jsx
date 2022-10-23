@@ -7,6 +7,7 @@ import { InstantLoan } from "../../sections/InstantLoan/InstantLoan";
 import News from "../../sections/News";
 import SavingWays from "../../sections/SavingWays";
 import SeamlessPayments from "../../sections/SeamleesPayments";
+import VideoSection from "../../sections/VideoSection";
 
 export const Home = () => {
   return (
@@ -19,6 +20,7 @@ export const Home = () => {
       <SavingWays />
       <GetStarted />
       <News />
+      <VideoSection/>
       <Community />
     </div>
   );
