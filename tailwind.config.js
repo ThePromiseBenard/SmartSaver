@@ -21,6 +21,12 @@ module.exports = {
         smartBlueIcon: "#2F80ED1A",
         smartSaver: "#676767",
         smartCommunity: "#F6F8F9",
+        valueOne: "#A49EEE",
+        valueTwo: "#EE2A52",
+        valueThree: "#FAB33F",
+        valueFour: "#676767",
+        valueFive: "#219653",
+        valueSix: "#2F80ED",
       },
 
       fontFamily: {
