@@ -8,7 +8,7 @@ export const CompanyHero = () => {
   return (
     <div className="">
       <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16 md:mb-32">
-        <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-44 xl:col-span-2">
+        <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-36 xl:col-span-2">
           <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
             <div className="absolute hidden md:block -top-8 xl:-top-16 xl:w-[427px]  md:right-[25%] xl:right-[34%]">
               <SmartImage src={Star} />
@@ -26,7 +26,7 @@ export const CompanyHero = () => {
           </div>
         </div>
         <div className="bg-smartOrange flex items-end ">
-          <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
+          <div className="absolute bottom-0 right-8 w-[650px] hidden xl:block  ">
             <SmartImage src={HeroImage} />
           </div>
           <div className="xl:hidden">
