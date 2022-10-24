@@ -31,8 +31,9 @@ export const HomeHero = () => {
             </div>
           </div>
           <Text className="max-w-[500px]" level={1}>
-            Get a free Bank account with earn high interest ans unlock the power
-            of savings, Investment and get access cheap Loans.
+            Get a free Bank account; unlock the power of savings & investment,
+            earn high interest on your savings, pay bills and access cheap
+            loans.
           </Text>
           <div className="space-x-4">
             <Button variant="appleOrange" />
