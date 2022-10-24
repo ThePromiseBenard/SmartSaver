@@ -29,11 +29,12 @@ export const VideoSection = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-4">
             <Heading level={4}>Let’s Get you started on SmartSaver!</Heading>
-            <Text level={1} className="max-w-[618px]">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            <Text level={1} >
+              Saving is an uncommon habit, develop one today, sit and watch your
+              finances grow while you set long term goals.
             </Text>
           </div>
+
           <div className="flex md:justify-center items-center gap-4 xl:ml-36">
             <Button variant="appleOrange" />
             <Button variant="playOrange" />
@@ -66,6 +67,7 @@ export const VideoSection = () => {
                 </Text>
               </div>
             </div>
+
             <div className="flex flex-wrap gap-3 md:gap-6 items-start">
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange  flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineDatabase />
@@ -73,9 +75,9 @@ export const VideoSection = () => {
               <div className="max-w-[375px] md:space-y-2">
                 <Heading level={6}>Start Earning, Saving & Banking</Heading>
                 <Text>
-                  .You’re ready to go. Carry out all your transactions within
-                  the app, from investments, Savings to loan applications,
-                  Insurance and bill payments..
+                  You’re ready to go. Carry out all your transactions within the
+                  app, from investments, Savings to loan applications, Insurance
+                  and bill payments..
                 </Text>
               </div>
             </div>

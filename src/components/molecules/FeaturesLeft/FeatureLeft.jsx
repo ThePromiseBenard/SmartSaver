@@ -7,20 +7,20 @@ export const FeatureLeft = ({ className }) => {
     {
       title: "Easy to Use Interface",
       paragraph:
-        "Sed aliquet rhoncus risus eu neque. Consectetur enim a est. Id egestas amet pretium eget. Sed aliquet rhoncus risus eu neque. ",
+        "We provide digital experiences that are convenient, easy to use and provide the users with more control for everyday financial transactions. ",
       icon: <AiOutlineLike />,
       id: 1,
     },
     {
       title: "Best Customer Support",
       paragraph:
-        "A tool that lets you build a dream website even if you know nothing about web design or programming.",
+        "We offer an outstanding 24/7 customer support for our numerous customers through in-app chat, whatsapp messaging, email and phone calls support..",
       icon: <AiOutlineMessage />,
       id: 2,
     },
   ];
   return (
-    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-28 xl:mt-16", className)}>
+    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-36 ", className)}>
       {featuresContent.map((item) => (
         <Features
           title={item.title}

@@ -17,9 +17,9 @@ export const Community = () => {
               <Heading level={2} className="capitalize">
                 Join Our Community
               </Heading>
-              <Text level={1} color="black" className="max-w-lg">
-                Risus habitant leo egestas mauris diam eget morbi tempus
-                vulputate.
+              <Text level={1} color="black" className="max-w-xl">
+                Be among the first to learn about company updates, product
+                launches, and giveaways.
               </Text>
               <div className="space-x-4">
                 <Button variant="community">Join Our Community</Button>

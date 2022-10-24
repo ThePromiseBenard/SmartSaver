@@ -17,7 +17,7 @@ export const News = () => {
           </Heading>
           <Text level={1} className="max-w-[919px]">
             As a demonstration of our quality service and awesome impression, we
-            have been published by some platforms across Nigeria, Ghana and
+            have been published by some platforms across Nigeria and
             beyond.
           </Text>
         </div>
