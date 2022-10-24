@@ -13,7 +13,7 @@ import Star from "../../../../../public/starBg.png";
 
 export const HomeHero = () => {
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16 md:mb-32">
+    <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16">
       <div className="bg-smartGrayBg space-y-16 md:space-y-28 xl:space-y-32  pt-16 md:pt-24 xl:pt-44  xl:col-span-2">
         <div className="containerBox space-y-4  cautionClass  relative">
           <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]  md:right-[25%] xl:right-[35%]">
