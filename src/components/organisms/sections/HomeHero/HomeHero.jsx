@@ -67,6 +67,7 @@ export const HomeHero = () => {
         <div className="xl:hidden">
           <SmartImage src={HeroImage} priority={true} />
         </div>
+        <div></div>
       </div>
     </div>
   );
