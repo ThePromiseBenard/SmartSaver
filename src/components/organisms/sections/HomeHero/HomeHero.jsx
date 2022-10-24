@@ -3,7 +3,7 @@ import Text from "../../../atoms/Text";
 import Paystack from "../../../../../public/Paystack_Logo1.png";
 import Capricon from "../../../../../public/capricon2.png";
 import Sterling from "../../../../../public/sterling2.png";
-import Providous from "../../../../../public/providous.png"
+import Providous from "../../../../../public/providous.png";
 import Firstcapitol from "../../../../../public/FirstCapitol2.png";
 import HeaderUnderline from "../../../../../public/Underline.png";
 import HeroImage from "../../../../../public/HomeHero Image2.png";
@@ -60,7 +60,7 @@ export const HomeHero = () => {
         </div>
       </div>
       <div className="bg-smartOrange flex items-end ">
-        <div className="absolute bottom-0 right-0 w-[600px] hidden xl:block  ">
+        <div className="absolute bottom-0 right-0 w-[610px] hidden xl:block  ">
           <SmartImage src={HeroImage} />
         </div>
         <div className="xl:hidden">
