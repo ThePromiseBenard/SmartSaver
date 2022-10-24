@@ -1,7 +1,9 @@
-
+import CompanyHero from "../../sections/CompanySections/CompanyHero";
 
 export const CompanyPage = () => {
   return (
-    <div>Company</div>
-  )
-}
+    <div>
+      <CompanyHero />
+    </div>
+  );
+};

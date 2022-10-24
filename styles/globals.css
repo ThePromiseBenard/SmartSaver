@@ -32,6 +32,9 @@ body {
   .containerBox {
     max-width: 960px;
   }
+  .cautionClass {
+    padding-left: 3rem;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -39,7 +42,12 @@ body {
     max-width: 1270px;
   }
   .cautionClass {
-    padding-left: 5rem;
+    padding-left:1rem;
+  }
+}
+@media(min-width:1300px){
+  .cautionClass{
+    padding-left:6rem;
   }
 }
 
