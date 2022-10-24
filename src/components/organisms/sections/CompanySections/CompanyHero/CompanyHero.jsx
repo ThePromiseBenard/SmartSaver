@@ -27,10 +27,10 @@ export const CompanyHero = () => {
         </div>
         <div className="bg-smartOrange flex items-end ">
           <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
-            <SmartImage src={HeroImage} priority={true} />
+            <SmartImage src={HeroImage} />
           </div>
           <div className="xl:hidden">
-            <SmartImage src={HeroImage} priority={true} />
+            <SmartImage src={HeroImage} />
           </div>
         </div>
       </div>
