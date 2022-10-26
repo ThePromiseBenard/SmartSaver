@@ -11,7 +11,9 @@ export const FeaturesSection = () => {
       <div className="text-center space-y-4">
         <Heading level={3}>Built With You In Mind</Heading>
         <Text level={1} className="max-w-[919px] mx-auto">
-          We are a Fintech Service Company developed to offer flexible and disciplined financial inclusiveness in a responsible and sustainable way.
+          We are a Fintech Service Company developed to offer flexible and
+          disciplined financial inclusiveness in a responsible and sustainable
+          way.
         </Text>
       </div>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:pb-28 pb-14">

@@ -1,8 +1,5 @@
 import { Features } from "../Features/Features";
-import {
-  AiOutlineSecurityScan,
-  AiOutlineLineChart,
-} from "react-icons/ai";
+import { AiOutlineSecurityScan, AiOutlineLineChart } from "react-icons/ai";
 import clsx from "clsx";
 
 export const FeatureLeft = ({ className }) => {
