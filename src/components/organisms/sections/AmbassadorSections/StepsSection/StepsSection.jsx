@@ -13,7 +13,7 @@ export const StepsSection = () => {
         <div>
           <div className="border-b border-smartGray pb-8">
             <Heading level={4}>
-              All you need to become a
+              All you need to become a{" "}
               <span className="text-smartOrange">Smart</span>Saver Ambassador
             </Heading>
           </div>
