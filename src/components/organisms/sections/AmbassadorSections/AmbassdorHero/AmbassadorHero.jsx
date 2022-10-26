@@ -9,19 +9,18 @@ export const AmbassadorHero = () => {
   return (
     <div className="">
       <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16 md:mb-32">
-        <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-32   xl:col-span-2">
-          <div className="containerBox space-y-4 md:space-y-8 xl:space-y-16 cautionClass  relative">
+        <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-44   xl:col-span-2">
+          <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
             <div className="absolute hidden md:block -top-8 xl:-top-16 xl:w-[427px]  md:right-[25%] xl:right-[34%]">
               <SmartImage src={Star} />
             </div>
             <div className="relative ">
-              <Heading level={2} className="font-extrabold max-w-[836px] ">
-                BE FINANCIALLY SMARTER.
-                <br />
-                Be a SmartSaver Ambassador.
+              <Heading level={1} className="font-extrabold max-w-[836px] ">
+                Be a SmartSaver <br />
+                Ambassador.
               </Heading>
             </div>
-            <Text className="max-w-[500px] " level={1}>
+            <Text className="max-w-[620px] " level={1}>
               SmartSaver ambassador program is a community of creative and
               influential young men and women from different representative of
               life who are representatives of SmartSaver brand at their various

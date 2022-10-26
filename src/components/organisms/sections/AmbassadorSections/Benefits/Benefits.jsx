@@ -44,7 +44,7 @@ export const Benefits = () => {
   return (
     <div className=" bg-smartGrayBg py-16 mb-16 md:mb-28 xl:mb-52">
       <div className="containerBox space-y-16">
-        <Heading level={3} className="text-center">
+        <Heading level={3} className=" text-left xl:text-center">
           Benefits of becoming a <span className="text-smartOrange">Smart</span>
           Saver Ambassador
         </Heading>

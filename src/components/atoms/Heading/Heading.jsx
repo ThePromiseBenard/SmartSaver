@@ -17,7 +17,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h2
           className={clsx(
-            " text-4xl md:text-40 lg:text-5xl font-bold",
+            " text-4xl md:text-40 lg:text-5xl font-bold  leading-8",
             className
           )}
         >

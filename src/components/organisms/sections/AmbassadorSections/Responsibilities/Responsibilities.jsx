@@ -13,7 +13,7 @@ export const Responsibilities = () => {
     {
       title: "Social Influence",
       paragraph:
-        "AN ambassador must consistently come up with ideas at least once every month that can create drive more awareness for the brand as well as sharing, retweeting, reposting SmartSaver’s online content.",
+        "Our ambassador must consistently come up with ideas at least once every month that can create drive more awareness for the brand as well as sharing, retweeting, reposting SmartSaver’s online content.",
       id: 2,
     },
     {
@@ -25,29 +25,28 @@ export const Responsibilities = () => {
   ];
   return (
     <div className="containerBox">
-      <div className="flex flex-col xl:flex-row gap-10 xl:gap-28 pb-32">
-        <div className=" md:max-w-[640px]  xl:max-w-[340px] flex items-center ">
+      <div className=" space-y-10 pb-16 xl:space-y-24">
+        <div className="text-left xl:text-center">
           <Heading level={3}>
-            Responsiblities of a{" "}
-            <span className="text-smartOrange ">smart</span>
+            Responsibilities of a <span className="text-smartOrange">smart</span>
             saver ambassador
           </Heading>
         </div>
-        <div className="grid md:grid-cols-2 gap-4 md:gap-8 flex-1">
+        <div className="grid  md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 flex-1">
           {responsibilityContent.map((item) => {
             return (
               <div
                 key={item.id}
-                className="md:space-y-6 space-y-2 xl:px-[1.55rem]"
+                className="md:space-y-6 space-y-2 xl:px-[1.55rem] bg-white shadow-lg hover:shadow-xl transition-all delay-100 ease-in p-4"
               >
                 <Heading level={5}>{item.title}</Heading>
                 <Text level={2}>{item.paragraph}</Text>
               </div>
             );
           })}
-          <div className="flex items-end">
-            <ApplyNow />
-          </div>
+        </div>
+        <div className="flex justify-center">
+          <ApplyNow />
         </div>
       </div>
     </div>
