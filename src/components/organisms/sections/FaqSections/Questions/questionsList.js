@@ -1,4 +1,4 @@
-const questions = [
+export const questions = [
   {
     general: [
       {
@@ -191,5 +191,3 @@ const questions = [
     ],
   },
 ];
-
-export default questions;
