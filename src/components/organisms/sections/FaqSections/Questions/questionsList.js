@@ -1,3 +1,4 @@
+import TermsLink from "../../../../atoms/TermsLink";
 export const questions = [
   {
     general: [
@@ -96,7 +97,7 @@ export const questions = [
       },
       {
         question: "What are your Terms of Use and Privacy Policy?",
-        answer: "Please read our Terms of use and Privacy Policy",
+        answer: <TermsLink />,
         id: 8,
       },
     ],

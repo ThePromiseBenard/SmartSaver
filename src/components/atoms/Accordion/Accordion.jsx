@@ -9,19 +9,19 @@ export const Accordion = ({ title, paragraph }) => {
   };
 
   return (
-    <div className="containerBox mx-auto space-y-8">
+    <div className="containerBox mx-auto ">
       <div
         className={
           open
-            ? "border shadow-md transition-all  delay-200 ease-in rounded-md p-4 max-w-[880px] mx-auto mt-8 space-y-8 h-[212px]"
-            : "border rounded-md p-4 max-w-[880px] mx-auto mt-8 space-y-8 h-[76px]"
+            ? "border shadow-md transition-all   ease-in rounded-md p-4 max-w-[880px] mx-auto mt-8 space-y-8 "
+            : "border rounded-md p-4 md:w-[700px] lg:w-[880px] mx-auto mt-8 space-y-8 h-[76px] z-10"
         }
       >
         <div className="flex items-center justify-between">
           <Text
             level={1}
             className={
-              open ? "!text-smartOrange transition-all delay-75 ease-in" : ""
+              open ? "!text-smartOrange " : ""
             }
           >
             {title}
@@ -34,15 +34,14 @@ export const Accordion = ({ title, paragraph }) => {
             )}
           </div>
         </div>
-        <div
-          className={
-            open
-              ? "max-w-[771px]  transition-all delay-300 ease-in opacity-1"
-              : "max-w-[771px] opacity-0"
-          }
-        >
-          <Text level={2}>{paragraph}</Text>
-        </div>
+
+        {open ? (
+          <div className="max-w-[771px]">
+            <Text level={2}>{paragraph}</Text>
+          </div>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

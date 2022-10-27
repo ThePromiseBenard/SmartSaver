@@ -17,7 +17,7 @@ export const Questions = () => {
                 : ""
             }
           >
-            Genaral
+            General
           </Button>
         </div>
         <div onClick={() => setActiveTab("security")}>
