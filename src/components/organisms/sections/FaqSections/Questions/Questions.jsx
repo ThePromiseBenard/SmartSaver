@@ -45,7 +45,7 @@ export const Questions = () => {
           </Button>
         </div>
       </div>
-      <div className="mb-24">
+      <div className="mb-28">
         {activeTab === "general"
           ? questions[0].general.map((item) => (
               <Accordion
