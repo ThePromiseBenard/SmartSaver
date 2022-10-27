@@ -7,13 +7,15 @@
 body {
   font-family: "Urbanist", sans-serif;
 }
-
+.heroContainer {
+  max-width: 100%;
+  margin: 0;
+}
 .containerBox {
   max-width: 100%;
   margin: 0;
   padding: 0 15px;
 }
-
 
 @media screen and (min-width: 640px) {
   .containerBox {
@@ -42,12 +44,12 @@ body {
     max-width: 1270px;
   }
   .cautionClass {
-    padding-left:1rem;
+    padding-left: 1rem;
   }
 }
-@media(min-width:1300px){
-  .cautionClass{
-    padding-left:6rem;
+@media (min-width: 1300px) {
+  .cautionClass {
+    padding-left: 6rem;
   }
 }
 

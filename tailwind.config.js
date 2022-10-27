@@ -27,6 +27,7 @@ module.exports = {
         valueFour: "#676767",
         valueFive: "#219653",
         valueSix: "#2F80ED",
+        tabsBg: "#F7F7F7",
       },
 
       fontFamily: {

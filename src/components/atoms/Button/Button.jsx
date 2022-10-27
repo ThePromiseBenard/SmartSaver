@@ -4,8 +4,9 @@ import appleBlack from "../../../../public/ApplestoreBlack.png";
 import playWhite from "../../../../public/Playstore.png";
 import playBlack from "../../../../public/PlaystoreBlack.png";
 import SmartLinks from "../SmartLinks";
+import clsx from "clsx";
 
-const Button = ({ variant, children }) => {
+const Button = ({ variant, children, className }) => {
   switch (variant) {
     case "appleOrange":
       return (
@@ -74,10 +75,26 @@ const Button = ({ variant, children }) => {
     case "community":
       return (
         <SmartLinks url="https://www.facebook.com/groups/498286373844460/?ref=share_group_link">
-          <button className=" bg-smartOrange font-medium py-2 px-4 md:py-4 text-white md:px-2 rounded-md relative    lg:w-44">
+          <button
+            className={clsx(
+              " bg-smartOrange font-medium py-2 px-4 md:py-4 text-white md:px-2 rounded-md relative    lg:w-44",
+              className
+            )}
+          >
             Join The Community
           </button>
         </SmartLinks>
+      );
+    case "tabs":
+      return (
+        <button
+          className={clsx(
+            " bg-tabsBg font-medium py-2 px-4 md:py-4 text-black/60 md:px-2 rounded-md relative    lg:w-44",
+            className
+          )}
+        >
+          {children}
+        </button>
       );
 
     default:
