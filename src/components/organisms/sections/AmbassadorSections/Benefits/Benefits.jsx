@@ -38,7 +38,7 @@ export const Benefits = () => {
       title: "Career support",
       paragraph:
         "Gain access to career mentorship, assistance and experiences that are useful to your career path.",
-      id: 1,
+      id: 6,
     },
   ];
   return (

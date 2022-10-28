@@ -98,7 +98,11 @@ const Button = ({ variant, children, className }) => {
       );
 
     default:
-      return <button className=" bg-white text-red-800 p-2">{children}</button>;
+      return (
+        <button className={clsx(" bg-white border py-3 px-8 rounded-lg", className)}>
+          {children}
+        </button>
+      );
   }
 };
 

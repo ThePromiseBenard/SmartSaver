@@ -24,16 +24,16 @@ export const News = () => {
 
         <div className="grid grid-cols-2 gap-4 xl:grid-cols-4 xl:gap-8">
           <div className="bg-white py-8 px-6 rounded-sm flex items-center justify-center  md:h-[170px]">
-            <SmartImage src={Businessday} />
+            <SmartImage src={Businessday} alt="businessday news paper logo"/>
           </div>
           <div className="bg-white py-8 px-6 rounded-sm flex items-center justify-center  md:h-[170px]">
-            <SmartImage src={ThisDay} />
+            <SmartImage src={ThisDay} alt=" thisday newspaper logo" />
           </div>
           <div className="bg-white py-8 px-6 rounded-sm flex items-center justify-center  md:h-[170px]">
-            <SmartImage src={Punch} />
+            <SmartImage src={Punch} alt="punch newspapers logo" />
           </div>
           <div className="bg-white py-8 px-6 rounded-sm flex items-center justify-center  md:h-[170px]">
-            <SmartImage src={cabal} />
+            <SmartImage src={cabal} alt="techcabal logo" />
           </div>
         </div>
       </div>

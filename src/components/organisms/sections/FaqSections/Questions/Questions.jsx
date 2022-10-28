@@ -1,6 +1,6 @@
 import Button from "../../../../atoms/Button";
 import { useState } from "react";
-import {questions} from "./questionsList";
+import { questions } from "./questionsList";
 import Accordion from "../../../../atoms/Accordion";
 
 export const Questions = () => {

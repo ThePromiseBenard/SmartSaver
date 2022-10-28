@@ -8,7 +8,7 @@ export const StepsSection = () => {
     <div className="containerBox">
       <div className="flex flex-wrap-reverse xl:flex-nowrap gap-16 pb-10 md:py-14 xl:py-28">
         <div className="xl:w-[604px]">
-          <SmartImage src={StepImage} />
+          <SmartImage src={StepImage} alt="young ladies discussing" />
         </div>
         <div>
           <div className="border-b border-smartGray pb-8">

@@ -19,7 +19,7 @@ export const FeaturesSection = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:pb-28 pb-14">
         <FeaturesLeft />
         <div className="hidden lg:block">
-          <SmartImage src={featureImage} />
+          <SmartImage src={featureImage} alt="woman smilling"/>
         </div>
         <FeaturesRight />
       </div>

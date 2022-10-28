@@ -11,7 +11,7 @@ export const CompanyHero = () => {
         <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-36 xl:col-span-2">
           <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
             <div className="absolute hidden md:block -top-8 xl:-top-16 xl:w-[427px]  md:right-[25%] xl:right-[34%]">
-              <SmartImage src={Star} />
+              <SmartImage src={Star} alt="star background" />
             </div>
             <div className="relative">
               <Heading level={1} className="font-extrabold max-w-lg">
@@ -27,10 +27,10 @@ export const CompanyHero = () => {
         </div>
         <div className="bg-smartOrange flex items-end ">
           <div className="absolute bottom-0 right-8 w-[650px] hidden xl:block  ">
-            <SmartImage src={HeroImage} />
+            <SmartImage src={HeroImage} alt="black smart girl" priority={true}  />
           </div>
           <div className="xl:hidden">
-            <SmartImage src={HeroImage} />
+            <SmartImage src={HeroImage} alt="black smart girl"  priority={true} />
           </div>
         </div>
       </div>

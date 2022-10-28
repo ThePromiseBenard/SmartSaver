@@ -12,7 +12,7 @@ export const AmbassadorHero = () => {
         <div className="bg-smartGrayBg   py-16 md:py-24 xl:py-44   xl:col-span-2">
           <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
             <div className="absolute hidden md:block -top-8 xl:-top-16 xl:w-[427px]  md:right-[25%] xl:right-[34%]">
-              <SmartImage src={Star} />
+              <SmartImage src={Star} alt="star background" />
             </div>
             <div className="relative ">
               <Heading level={1} className="font-extrabold max-w-[836px] ">
@@ -35,10 +35,10 @@ export const AmbassadorHero = () => {
         </div>
         <div className="bg-smartOrange flex items-end ">
           <div className="absolute bottom-0 right-8 w-[650px] hidden xl:block  ">
-            <SmartImage src={HeroImage} />
+            <SmartImage src={HeroImage} alt="smart lady image" />
           </div>
           <div className="xl:hidden">
-            <SmartImage src={HeroImage} />
+            <SmartImage src={HeroImage} alt="smart lady image" />
           </div>
         </div>
       </div>

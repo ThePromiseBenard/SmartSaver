@@ -85,7 +85,7 @@ export const VideoSection = () => {
 
           <div className="flex items-center">
             <div className="lg:w-[615px] md:w-[400px] relative ">
-              <SmartImage src={VideoImage} />
+              <SmartImage src={VideoImage} alt="image cover for smart video"/>
               <div
                 className=" absolute text-6xl xl:text-8xl text-smartOrange top-[40%] left-[40%] cursor-pointer"
                 onClick={() => {

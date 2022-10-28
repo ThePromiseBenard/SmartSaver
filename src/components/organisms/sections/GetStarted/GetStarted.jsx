@@ -10,7 +10,7 @@ export const GetStarted = () => {
     <div className="containerBox">
       <div className="relative bg-smartFooterBg rounded-lg md:h-[344px] xl:h-[508px] mt-10 md:mt-20 mb-8 md:mb-28">
         <div className="w-full h-full absolute ">
-          <SmartImage src={BgImage} />
+          <SmartImage src={BgImage} alt="background image"/>
         </div>
         <div className="z-[8]  relative w-full flex flex-wrap md:flex-nowrap gap-8 justify-around px-4 pt-8 md:py-16 ">
           <div className="flex gap-6 flex-col justify-center">
@@ -27,7 +27,7 @@ export const GetStarted = () => {
             </div>
           </div>
           <div className="xl:w-[350px] w-[200px] ">
-            <SmartImage src={Iphone} />
+            <SmartImage src={Iphone} alt="smart app image" />
           </div>
         </div>
       </div>

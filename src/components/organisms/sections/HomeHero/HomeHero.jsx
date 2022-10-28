@@ -17,7 +17,7 @@ export const HomeHero = () => {
       <div className="bg-smartGrayBg space-y-16 md:space-y-28 xl:space-y-32  pt-16 md:pt-24 xl:pt-52 xl:col-span-2">
         <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
           <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]  md:right-[25%] xl:right-[35%]">
-            <SmartImage src={Star} />
+            <SmartImage src={Star} alt="star back ground" />
           </div>
           <div className="relative">
             <Heading
@@ -27,7 +27,7 @@ export const HomeHero = () => {
               Smarter Than your Bank
             </Heading>
             <div className="absolute z-[4] bottom-[69px] md:bottom-[44px] lg:bottom-[50px] w-44 md:w-48 lg:w-60">
-              <SmartImage src={HeaderUnderline} />
+              <SmartImage src={HeaderUnderline} alt="text underline"/>
             </div>
           </div>
           <Text className="max-w-[500px]" level={1}>
@@ -62,10 +62,10 @@ export const HomeHero = () => {
       </div>
       <div className="bg-smartOrange flex items-end ">
         <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
-          <SmartImage src={HeroImage} priority={true} />
+          <SmartImage src={HeroImage} priority={true} alt="smart app image"/>
         </div>
         <div className="xl:hidden">
-          <SmartImage src={HeroImage} priority={true} />
+          <SmartImage src={HeroImage} priority={true} alt="smart app image"/>
         </div>
         <div></div>
       </div>

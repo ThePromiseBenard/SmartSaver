@@ -16,7 +16,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
   const title = ` SmartSaver`;
 
   return (
-    <div style={{ maxWidth: "", marginInline: "auto" }}>
+    <div style={{ marginInline: "auto" }}>
       <Head>
         <title>{title}</title>
         <meta content={meta.description} name="description" />
@@ -32,14 +32,14 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta name="twitter:site" content="" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        <link rel="preload" as="image" href="/SmartLogoMain.png " />
+        {/* <link rel="preload" as="image" href="/SmartLogoMain.png " />
         <link rel="preload" as="image" href="/capricon2.png " />
         <link rel="preload" as="image" href="/FirstCapitol2.png " />
         <link rel="preload" as="image" href="/Paystack_Logo1.png " />
         <link rel="preload" as="image" href="/providus2.png " />
         <link rel="preload" as="image" href="/starBg.png " />
         <link rel="preload" as="image" href="/Underline.png" />
-        <link rel="preload" as="image" href="/sterling2.png " />
+        <link rel="preload" as="image" href="/sterling2.png " /> */}
       </Head>
       {/* Header component Goes here */}
       <NavBar />
