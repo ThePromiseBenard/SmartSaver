@@ -12,7 +12,8 @@ export const CustomerSection = () => {
             <CardText title="With Over 100,000 happy customers">
               <Text level={2}>
                 Join over 100,000 happy users benefiting from SmartSaver
-                solutions Save & Earn with SmartSaver Today
+                solutions.
+                <br /> Save & Earn with SmartSaver Today
               </Text>
             </CardText>
           </div>
