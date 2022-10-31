@@ -3,7 +3,7 @@ import FaqPage from "../components/organisms/pages/Faq";
 
 const Faq = () => {
   return (
-    <AppLayout>
+    <AppLayout title="FAQ">
       <FaqPage />
     </AppLayout>
   );

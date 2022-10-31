@@ -5,7 +5,7 @@ import { getTermsAndCondition } from "../../Lib/data";
 const Terms = ({ conditions }) => {
   
   return (
-    <AppLayout>
+    <AppLayout title="Terms">
       <TermsPage conditions={conditions} />
     </AppLayout>
   );

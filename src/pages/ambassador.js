@@ -3,7 +3,7 @@ import AmbassadorPage from "../components/organisms/pages/Ambassador";
 
 const Ambassador = () => {
   return (
-    <AppLayout>
+    <AppLayout title="Ambassador">
       <AmbassadorPage />
     </AppLayout>
   );

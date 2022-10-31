@@ -4,7 +4,7 @@ import { getPrivacyPolicies } from "../../Lib/data";
 
 const Privacy = ({policies}) => {
   return (
-    <AppLayout>
+    <AppLayout title="Privacy">
       <PrivacyPage policies={policies} />
     </AppLayout>
   );

@@ -4,7 +4,7 @@ import { getMembers } from "../../Lib/data";
 
 const Company = ({ members }) => {
   return (
-    <AppLayout>
+    <AppLayout title="Company">
       <CompanyPage members={members} />
     </AppLayout>
   );

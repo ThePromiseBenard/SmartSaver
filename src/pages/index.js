@@ -3,7 +3,7 @@ import { Home } from "../components/organisms/pages/Home/Home";
 
 const Landing = () => {
   return (
-    <AppLayout>
+    <AppLayout title="Home">
       <Home />
     </AppLayout>
   );

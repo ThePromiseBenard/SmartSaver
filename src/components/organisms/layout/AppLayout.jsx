@@ -13,7 +13,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
 
   //  Concatinated this to avoid rendering multiple nodes in the title tag
 
-  const title = ` SmartSaver`;
+  const title = `${meta.title || ""} || SmartSaver`;
 
   return (
     <div style={{ marginInline: "auto" }}>
@@ -27,9 +27,12 @@ export const AppLayout = ({ children, ...customMeta }) => {
         />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={title} />
-        <meta property="og:image" content={meta.image} />
+        <meta
+          property="og:image"
+          content="../../../../public/smartsaver mete image.jpg"
+        />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="" />
+        <meta name="twitter:site" content="@_SmartSaverNG" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <link
@@ -54,6 +57,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
+
       {/* Header component Goes here */}
       <NavBar />
       <main>{children}</main>
