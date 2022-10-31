@@ -10,37 +10,46 @@ const Button = ({ variant, children, className }) => {
   switch (variant) {
     case "appleOrange":
       return (
-        <SmartLinks url="https://www.apple.com/app-store/">
-          <button className="bg-smartOrange py-2 px-4 rounded-md relative w-32   lg:w-44">
+        <SmartLinks url="#">
+          <button className="bg-smartOrange py-2 px-4 rounded-md relative w-32   lg:w-44 overflow-hidden">
             <SmartImage
               src={appleWhite}
               alt="apple logo"
               priority={true}
               className="h-full"
             />
+            <div className="absolute px-6 bg-white/50 backdrop-blur-sm top-2 font-bold md:text-xl -left-6 -rotate-45  ">
+              <span> soon !</span>
+            </div>
           </button>
         </SmartLinks>
       );
 
     case "appleDark":
       return (
-        <SmartLinks url="https://www.apple.com/app-store/">
-          <button className=" bg-smartgraybutton py-2 px-4  rounded-md relative w-32   lg:w-40">
+        <SmartLinks url="#">
+          <button className=" bg-smartgraybutton py-2 px-4  rounded-md relative w-32   lg:w-40 overflow-hidden">
             <SmartImage
               src={appleWhite}
               alt="apple logo"
               priority={true}
               className="h-full"
             />
+            <div className="absolute px-6 bg-white/50 backdrop-blur-sm top-2 font-bold md:text-xl -left-6 -rotate-45  ">
+              <span> soon !</span>
+            </div>
           </button>
         </SmartLinks>
       );
 
     case "appleLight":
       return (
-        <SmartLinks url="https://www.apple.com/app-store/">
-          <button className=" bg-white py-2 px-4 rounded-md relative w-32   lg:w-40">
+        <SmartLinks url="#">
+          <button className=" bg-white py-2 px-4 rounded-md relative w-32   lg:w-40 overflow-hidden">
             <SmartImage src={appleBlack} alt="apple logo" priority={true} />
+            <div className="absolute px-6 bg-black/50 backdrop-blur-sm top-2 font-bold md:text-xl -left-6 -rotate-45  ">
+              <span> soon !</span>
+            </div>
           </button>
         </SmartLinks>
       );
@@ -99,7 +108,9 @@ const Button = ({ variant, children, className }) => {
 
     default:
       return (
-        <button className={clsx(" bg-white border py-3 px-8 rounded-lg", className)}>
+        <button
+          className={clsx(" bg-white border py-3 px-8 rounded-lg", className)}
+        >
           {children}
         </button>
       );
