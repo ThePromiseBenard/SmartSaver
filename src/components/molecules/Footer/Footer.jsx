@@ -49,11 +49,11 @@ export const Footer = () => {
             </h5>
 
             <div className="text-sm md:text-base font-medium capitalize flex flex-col gap-5 justify-center">
-              <p>savings</p>
-              <p>investments</p>
-              <p>bill payments</p>
-              <p>loans</p>
-              <p>Insurance </p>
+              <a href="#insurance">savings</a>
+              <a href="#loans">investments</a>
+              <a href="#payments">bill payments</a>
+              <a href="#loans">loans</a>
+              <a href="#insurance">Insurance </a>
             </div>
           </div>
         </div>
@@ -79,24 +79,30 @@ export const Footer = () => {
           </h5>
 
           <div className="text-sm md:text-base font-medium">
-            <p className="flex items-center gap-2 my-4">
+            <a
+              href="mailto:Care@smartsaver.ng"
+              className="flex items-center gap-2 my-4"
+            >
               <span>
                 <IoMail size={24} className="text-smartOrange " />
               </span>
               Care@smartsaver.ng
-            </p>
-            <p className="flex items-center gap-2 my-4">
+            </a>
+            <a
+              href="tel:+234 701 444 9223"
+              className="flex items-center gap-2 my-4"
+            >
               <span>
                 <IoPhonePortrait size={24} className="text-smartOrange" />
               </span>
               080 000 0000 000
-            </p>
-            <p className="flex items-center gap-2 my-4">
+            </a>
+            <a href="#" className="flex items-center gap-2 my-4">
               <span>
                 <IoLocation size={24} className="text-smartOrange" />
               </span>
               No, 9, The providence street, Lekki phase 1, Lekki, Lagos.
-            </p>
+            </a>
             <a
               href="https://wa.me/message/JHSRKEQRR46CK1"
               target="_blank"

@@ -2,6 +2,7 @@ import { hyGraphApi } from "../services";
 import { GraphQLClient, gql } from "graphql-request";
 
 const graphQlClient = new GraphQLClient(hyGraphApi);
+
 export const getMembers = async () => {
   const query = gql`
     {

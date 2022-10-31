@@ -32,14 +32,27 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta name="twitter:site" content="" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
-        {/* <link rel="preload" as="image" href="/SmartLogoMain.png " />
-        <link rel="preload" as="image" href="/capricon2.png " />
-        <link rel="preload" as="image" href="/FirstCapitol2.png " />
-        <link rel="preload" as="image" href="/Paystack_Logo1.png " />
-        <link rel="preload" as="image" href="/providus2.png " />
-        <link rel="preload" as="image" href="/starBg.png " />
-        <link rel="preload" as="image" href="/Underline.png" />
-        <link rel="preload" as="image" href="/sterling2.png " /> */}
+        <link
+          rel="apple-touch-icon"
+          sizes="114x114"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
       {/* Header component Goes here */}
       <NavBar />
