@@ -3,7 +3,7 @@ import TermsPage from "../components/organisms/pages/Terms";
 import { getTermsAndCondition } from "../../Lib/data";
 
 const Terms = ({ conditions }) => {
-  console.log(conditions);
+  
   return (
     <AppLayout>
       <TermsPage conditions={conditions} />

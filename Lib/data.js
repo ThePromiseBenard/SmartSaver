@@ -41,3 +41,20 @@ export const getTermsAndCondition = async () => {
   const response = await graphQlClient.request(QUERY);
   return response;
 };
+
+export const getPrivacyPolicies = async () => {
+  const QUERY = gql`
+    {
+      privacies {
+        id
+        part
+        contents {
+          markdown
+        }
+      }
+    }
+  `;
+
+  const response = await graphQlClient.request(QUERY);
+  return response;
+};

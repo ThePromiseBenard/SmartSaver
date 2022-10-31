@@ -6,7 +6,6 @@ import ReactMarkdown from "react-markdown";
 export const TermsPage = ({ conditions }) => {
   const { termsAndConditions } = conditions;
 
-  console.log(termsAndConditions);
   return (
     <div className="py-32">
       <div className="containerBox md:text-center">
@@ -60,7 +59,7 @@ export const TermsPage = ({ conditions }) => {
           <div className="space-y-6 w-full">
             {termsAndConditions.map((term, index) => (
               <div id={`${index}`} key={term.id} className="mt-28 scroll-mt-24">
-                <p className="text-smartOrange mb-8">{term.part}</p>
+                <p className="text-smartOrange mb-8 font-bold">{term.part}</p>
                 <div className="prose prose-slate md:prose-lg max-w-none">
                   <ReactMarkdown>{`${term.contents.markdown}`}</ReactMarkdown>
                 </div>
