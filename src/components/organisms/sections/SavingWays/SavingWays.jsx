@@ -4,7 +4,7 @@ import Text from "../../../atoms/Text";
 
 export const SavingWays = () => {
   return (
-    <div className="bg-smartGrayBg py-6 md:py-20">
+    <div className="bg-smartGrayBg py-6 md:py-20" id="savings">
       <div className="containerBox grid gap-10 md:grid-cols-2">
         <div className="flex items-center">
           <CardText title="Ways to Build Your Savings and Earn High Interest">

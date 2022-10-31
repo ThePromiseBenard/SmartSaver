@@ -15,7 +15,9 @@ export const AppLayout = ({ children, ...customMeta }) => {
 
   //  Concatinated this to avoid rendering multiple nodes in the title tag
 
-  const title = `${meta.title || ""} || SmartSaver`;
+  const title = `${
+    meta.title || ""
+  } ||SmartSaver: Reliable Savings &amp; Digital Banking Platform`;
 
   return (
     <div style={{ marginInline: "auto" }}>
@@ -26,6 +28,10 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta
           property="og:site_name"
           content=": Reliable Savings &amp; Digital Banking Platform"
+        />
+        <meta
+          name="keywords"
+          content="Automated Savings, Banks in Nigeria, Automated Online Savings, Online Savings, Online Banks, How to Save,Online Investment, where to save/Invest in Nigeria, SmartSaver, savings goals, Savings Target, SmartSaver, Lending in Nigeria, Access Loans, Investments in Nigeria, Emergency Fund, Reasons to save, Online Investment, Investment, Earn More Money, SmartSaver 30% interest, SmartSaver, High yield savings, High Interest banks, Interest, Digital Banks, making Money Online, Online Investment, loan offering firm, savings platform, piggybank Nigeria, Nigeria, Daily savings, weekly savings, save in Nigeria"
         />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={title} />

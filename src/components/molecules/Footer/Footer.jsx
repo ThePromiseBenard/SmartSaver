@@ -49,8 +49,8 @@ export const Footer = () => {
             </h5>
 
             <div className="text-sm md:text-base font-medium capitalize flex flex-col gap-5 justify-center">
-              <a href="#insurance">savings</a>
-              <a href="#loans">investments</a>
+              <a href="#savings">savings</a>
+              <a href="#savings">investments</a>
               <a href="#payments">bill payments</a>
               <a href="#loans">loans</a>
               <a href="#insurance">Insurance </a>
