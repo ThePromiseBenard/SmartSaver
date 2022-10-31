@@ -2,12 +2,14 @@
 import Head from "next/head";
 import Footer from "../../molecules/Footer";
 import NavBar from "../../molecules/NavBar";
+import metaImage from "../../../../public/smartsaver mete image.jpg";
 
 export const AppLayout = ({ children, ...customMeta }) => {
   const meta = {
     type: "website",
     description:
       "A Financial Supermarket to help you save, earn High Interest, Invest, Transfer &amp; pay Bills. Access Quick Loans &amp; High Yield Savings.",
+    image: { metaImage },
     ...customMeta,
   };
 
@@ -27,10 +29,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
         />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={title} />
-        <meta
-          property="og:image"
-          content="../../../../public/smartsaver mete image.jpg"
-        />
+        <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@_SmartSaverNG" />
         <meta name="twitter:title" content={meta.title} />
