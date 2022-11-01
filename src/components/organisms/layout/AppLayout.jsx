@@ -42,6 +42,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
         <meta name="twitter:site" content="@_SmartSaverNG" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
+        <meta name="twitter:image" content={meta.image} />
         <link
           rel="apple-touch-icon"
           sizes="114x114"
