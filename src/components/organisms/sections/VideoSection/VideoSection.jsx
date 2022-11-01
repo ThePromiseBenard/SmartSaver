@@ -2,7 +2,7 @@ import Heading from "../../../atoms/Heading";
 import Text from "../../../atoms/Text";
 import Button from "../../../atoms/Button";
 import VideoImage from "../../../../../public/Video-Image.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SmartImage from "../../../atoms/SmartImage";
 import {
   AiOutlineCloudDownload,
@@ -15,13 +15,17 @@ import {
 export const VideoSection = () => {
   const [openModal, setModal] = useState(false);
 
-  const showModal = () => {
-    setModal(true);
+  const handleModal = () => {
+    setModal(!openModal);
   };
 
-  const hideModal = () => {
-    setModal(false);
-  };
+  useEffect(() => {
+    if (openModal) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [openModal]);
 
   return (
     <div className="containerBox relative">
@@ -29,7 +33,7 @@ export const VideoSection = () => {
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-4">
             <Heading level={4}>Let’s Get you started on SmartSaver!</Heading>
-            <Text level={1} >
+            <Text level={1}>
               Saving is an uncommon habit, develop one today, sit and watch your
               finances grow while you set long term goals.
             </Text>
@@ -85,11 +89,11 @@ export const VideoSection = () => {
 
           <div className="flex items-center">
             <div className="lg:w-[615px] md:w-[400px] relative ">
-              <SmartImage src={VideoImage} alt="image cover for smart video"/>
+              <SmartImage src={VideoImage} alt="image cover for smart video" />
               <div
                 className=" absolute text-6xl xl:text-8xl text-smartOrange top-[40%] left-[40%] cursor-pointer"
                 onClick={() => {
-                  showModal();
+                  handleModal();
                 }}
               >
                 <AiFillPlayCircle />
@@ -107,7 +111,7 @@ export const VideoSection = () => {
               <div
                 className="md:text-lg xl:text-2xl cursor-pointer"
                 onClick={() => {
-                  hideModal();
+                  handleModal();
                 }}
               >
                 <AiOutlineClose />

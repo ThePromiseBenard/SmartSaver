@@ -2,7 +2,7 @@ import SmartLinks from "../../atoms/SmartLinks";
 import Button from "../../atoms/Button";
 import SmartLogo from "../../../../public/SmartLogoMain.png";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SmartImage from "../../atoms/SmartImage";
 
 export const NavBar = ({ className }) => {
@@ -11,6 +11,13 @@ export const NavBar = ({ className }) => {
   const navHandler = () => {
     setNav(!nav);
   };
+  useEffect(() => {
+    if (nav) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [nav]);
 
   return (
     <nav className={className}>
