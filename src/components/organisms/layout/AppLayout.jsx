@@ -74,6 +74,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
       <main>{children}</main>
       {/* Footer component goes here */}
       <Footer />
+      
     </div>
   );
 };

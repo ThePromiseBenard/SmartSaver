@@ -56,7 +56,7 @@ const Button = ({ variant, children, className }) => {
 
     case "playOrange":
       return (
-        <SmartLinks url="https://play.google.com/store/games">
+        <SmartLinks url="https://play.google.com/store/apps/details?id=ng.smartsaver">
           <button className=" bg-smartOrange p-2 rounded-md relative w-32   lg:w-44">
             <SmartImage src={playWhite} alt="apple logo" priority={true} />
           </button>
@@ -65,7 +65,7 @@ const Button = ({ variant, children, className }) => {
 
     case "playDark":
       return (
-        <SmartLinks url="https://play.google.com/store/games">
+        <SmartLinks url="https://play.google.com/store/apps/details?id=ng.smartsaver">
           <button className=" bg-smartgraybutton p-2 rounded-md relative w-32   lg:w-40">
             <SmartImage src={playWhite} alt="apple logo" priority={true} />
           </button>
@@ -74,7 +74,7 @@ const Button = ({ variant, children, className }) => {
 
     case "playLight":
       return (
-        <SmartLinks url="https://play.google.com/store/games">
+        <SmartLinks url="https://play.google.com/store/apps/details?id=ng.smartsaver">
           <button className=" bg-white p-2 rounded-md relative w-32   lg:w-40">
             <SmartImage src={playBlack} alt="apple logo" priority={true} />
           </button>
