@@ -8,7 +8,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
     type: "website",
     description:
       "A Financial Supermarket to help you save, earn High Interest, Invest, Transfer &amp; pay Bills. Access Quick Loans &amp; High Yield Savings.",
-    image: "https://smart-saver.vercel.app/smartsaver-mete-image.jpg",
+    image: "https://smart-saver.vercel.app/static/smartsaver-mete-image.jpg",
     ...customMeta,
   };
 
