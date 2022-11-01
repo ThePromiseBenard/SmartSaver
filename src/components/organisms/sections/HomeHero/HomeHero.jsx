@@ -26,8 +26,10 @@ export const HomeHero = () => {
             >
               Smarter Than your Bank
             </Heading>
-            <div className="absolute z-[4] bottom-[69px] md:bottom-[44px] lg:bottom-[50px] w-44 md:w-48 lg:w-60">
-              <SmartImage src={HeaderUnderline} alt="text underline"/>
+            <div className="absolute z-[4] bottom-[39px] md:bottom-[44px] lg:bottom-[50px] w-44 md:w-48 lg:w-60">
+              <div className="w-32 md:w-auto">
+                <SmartImage src={HeaderUnderline} alt="text underline" />
+              </div>
             </div>
           </div>
           <Text className="max-w-[500px]" level={1}>
@@ -62,10 +64,12 @@ export const HomeHero = () => {
       </div>
       <div className="bg-smartOrange flex items-end ">
         <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
-          <SmartImage src={HeroImage} priority={true} alt="smart app image"/>
+          <SmartImage src={HeroImage} priority={true} alt="smart app image" />
         </div>
-        <div className="xl:hidden">
-          <SmartImage src={HeroImage} priority={true} alt="smart app image"/>
+        <div className="xl:hidden  flex items-center justify-end">
+          <div className="ml-auto w-80 md:w-auto">
+            <SmartImage src={HeroImage} priority={true} alt="smart app image" />
+          </div>
         </div>
         <div></div>
       </div>

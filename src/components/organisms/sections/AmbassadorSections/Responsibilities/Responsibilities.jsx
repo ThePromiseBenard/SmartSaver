@@ -25,7 +25,7 @@ export const Responsibilities = () => {
   ];
   return (
     <div className="containerBox">
-      <div className=" space-y-10 pb-16 xl:space-y-24">
+      <div className=" space-y-10 pb-16 xl:space-y-24 mt-8">
         <div className="text-left xl:text-center">
           <Heading level={3}>
             Responsibilities of a <span className="text-smartOrange">smart</span>

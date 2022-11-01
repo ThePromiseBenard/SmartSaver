@@ -12,15 +12,15 @@ export const FeatureLeft = ({ className }) => {
       id: 1,
     },
     {
-      title: "Secured & Insured:",
+      title: "Secured And Insured: ",
       paragraph:
-        "The funds are held and invested at NDIC insured banks and processed through a PCIDSS Level 1 Compliant. Your personal information is anonymized, encrypted and securely stored.",
+        "The funds are held and invested at NDIC insured banks and processed through a PCIDSS Level 1 Compliant. Your  information is anonymized.",
       icon: <AiOutlineSecurityScan />,
       id: 2,
     },
   ];
   return (
-    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-28 ", className)}>
+    <div className={clsx("space-y-4 md:space-y-8 lg:space-y-28", className)}>
       {featuresContent.map((item) => (
         <Features
           title={item.title}

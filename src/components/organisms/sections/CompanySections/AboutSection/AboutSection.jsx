@@ -6,7 +6,7 @@ import AboutImage from "../../../../../../public/Smart About .jpeg";
 
 export const AboutSection = () => {
   return (
-    <div className=" pb-20">
+    <div className=" pb-20 mt-8">
       <div className="containerBox grid xl:grid-cols-2 gap-16">
         <div className="space-y-8">
           <div className="space-y-6">

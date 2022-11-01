@@ -7,8 +7,10 @@ export const InstantLoan = () => {
   return (
     <div className="containerBox scroll-mt-20" id="loans">
       <div className=" my-10 md:my-20 grid md:grid-cols-2 gap-4 md:gap-16 ">
-        <div className="bg-smartOrange pt-4 px-4 md:px-8 md:pt-8 rounded-2xl  2xl:w-[529px]">
-          <SmartImage src={LoanImage} alt="loan image" />
+        <div className="bg-smartOrange pt-4 px-4 md:px-8 md:pt-8 rounded-2xl  flex items-center justify-center  2xl:w-[529px]">
+          <div className="w-52 md:w-auto">
+            <SmartImage src={LoanImage} alt="loan image" />
+          </div>
         </div>
         <div className="flex justify-center items-center">
           <CardText title="Access to Instant Loans.">

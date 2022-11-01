@@ -8,7 +8,7 @@ import SmartImage from "../../../atoms/SmartImage";
 export const FeaturesSection = () => {
   return (
     <div className="space-y-16 containerBox ">
-      <div className="text-center space-y-4">
+      <div className="text-center space-y-4 mt-8">
         <Heading level={3}>Built With You In Mind</Heading>
         <Text level={1} className="max-w-[919px] mx-auto">
           We are a Fintech Service Company developed to offer flexible and
