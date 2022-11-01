@@ -49,11 +49,11 @@ export const Footer = () => {
             </h5>
 
             <div className="text-sm md:text-base font-medium capitalize flex flex-col gap-5 justify-center">
-              <a href="#savings">savings</a>
-              <a href="#savings">investments</a>
-              <a href="#payments">bill payments</a>
-              <a href="#loans">loans</a>
-              <a href="#insurance">Insurance </a>
+              <SmartLinks url="/#savings">savings</SmartLinks>
+              <SmartLinks url="/#savings">investments</SmartLinks>
+              <SmartLinks url="/#payments">bill payments</SmartLinks>
+              <SmartLinks url="/#loans">loans</SmartLinks>
+              <SmartLinks url="/#insurance">Insurance </SmartLinks>
             </div>
           </div>
         </div>
