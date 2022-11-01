@@ -27,7 +27,7 @@ export const GetStarted = () => {
             </div>
           </div>
           <div className="xl:w-[350px] w-[200px] ">
-            <div className="w-44">
+            <div className="w-44 md:w-auto">
               <SmartImage src={Iphone} alt="smart app image" />
             </div>
           </div>
