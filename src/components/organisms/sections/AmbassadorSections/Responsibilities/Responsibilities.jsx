@@ -45,7 +45,7 @@ export const Responsibilities = () => {
             );
           })}
         </div>
-        <div className="flex justify-center">
+        <div className="flex md:justify-center">
           <ApplyNow />
         </div>
       </div>

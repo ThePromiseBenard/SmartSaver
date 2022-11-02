@@ -6,8 +6,8 @@ import Accordion from "../../../../atoms/Accordion";
 export const Questions = () => {
   const [activeTab, setActiveTab] = useState("general");
   return (
-    <div className="containerBox flex flex-col justify-center items-center gap-8">
-      <div className="mt-24 flex gap-6">
+    <div className="containerBox flex flex-col justify-center items-center gap-8 md:gap-28">
+      <div className="md:mt-24 mt-10 flex gap-6">
         <div onClick={() => setActiveTab("general")}>
           <Button
             variant="tabs"
@@ -45,7 +45,7 @@ export const Questions = () => {
           </Button>
         </div>
       </div>
-      <div className="mb-28">
+      <div className=" mb-10 md:mb-28 space-y-4 md:space-y-16">
         {activeTab === "general"
           ? questions[0].general.map((item) => (
               <Accordion

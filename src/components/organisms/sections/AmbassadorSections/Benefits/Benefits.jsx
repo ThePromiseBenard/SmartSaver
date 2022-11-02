@@ -42,18 +42,18 @@ export const Benefits = () => {
     },
   ];
   return (
-    <div className=" bg-smartGrayBg py-16 mb-16 md:mb-28 xl:mb-52">
-      <div className="containerBox space-y-16">
+    <div className=" bg-smartGrayBg py-6 md:py-16 mb-16 md:mb-28 xl:mb-52">
+      <div className="containerBox space-y-6 md:space-y-16">
         <Heading level={3} className=" text-left xl:text-center">
           Benefits of becoming a <span className="text-smartOrange">Smart</span>
           Saver Ambassador
         </Heading>
-        <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-10 xl:gap-24">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3  gap-4 xl:gap-24">
           {benefitsContent.map((item) => {
             return (
               <div
                 key={item.id}
-                className="bg-white py-10 px-6 shadow-md space-y-6"
+                className="bg-white py-10 px-6 shadow-md  space-y-3 md:space-y-6"
               >
                 <Heading>{item.title}</Heading>
                 <Text>{item.paragraph}</Text>
@@ -61,7 +61,7 @@ export const Benefits = () => {
             );
           })}
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center md:justify-center">
           <ApplyNow />
         </div>
       </div>

@@ -10,7 +10,7 @@ export const News = () => {
   return (
     <div className="bg-smartGrayBg pb-8">
       <div className="flex flex-col items-center justify-center pt-32 pb-10 xl:pt-32 xl:pb-20 space-y-14 containerBox">
-        <div className="text-center space-y-4 mt-8 xl:mt-0 pb-4">
+        <div className="md:text-center space-y-4 mt-8 xl:mt-0 ,d:pb-4">
           <Heading level={5}>
             <span className="text-smartOrange">Smart</span>
             <span className="text-smartSaver">Saver</span> in the News

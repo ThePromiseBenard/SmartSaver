@@ -20,7 +20,7 @@ export const AppLayout = ({ children, ...customMeta }) => {
   } | SmartSaver: Reliable Savings &amp; Digital Banking Platform`;
 
   return (
-    <div style={{ marginInline: "auto" }}>
+    <div className="">
       <Head>
         <title>{title}</title>
         <meta content={meta.description} name="description" />

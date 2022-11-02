@@ -7,14 +7,14 @@ export const FaqHero = () => {
   return (
     <div>
       <div className="heroContainer">
-        <div className="relative text-center pt-14 md:pt-20">
+        <div className="relative md:text-center pt-14 md:pt-20">
           <SmartImage
             src={HeroImage}
             alt="hero background image"
             priority={true}
           />
-          <div className="absolute w-full top-1/2 flex  items-center flex-col gap-2 md:gap-6">
-            <Heading level={2} className="!text-white !text-xl md:!text-5xl">
+          <div className="absolute w-full top-1/2 flex   md:items-center flex-col gap-2 md:gap-6">
+            <Heading level={2} className="!text-white !text-xl md:!text-5xl pl-4">
               FREQUENTLY ASKED QUESTIONS
             </Heading>
             <Text className="max-w-xl !text-white/60 px-4">

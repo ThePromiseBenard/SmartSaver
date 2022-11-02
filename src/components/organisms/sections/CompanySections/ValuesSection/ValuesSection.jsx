@@ -49,9 +49,9 @@ export const ValuesSection = () => {
   ];
   return (
     <div>
-      <div className="bg-smartGrayBg text-center">
+      <div className="bg-smartGrayBg md:text-center">
         <div className="containerBox">
-          <div className="py-8 xl:py-36 space-y-16">
+          <div className="py-6 xl:py-36 space-y-4 md:space-y-16">
             <div className="  xl:space-y-4">
               <Heading level={2}>Our Core Values</Heading>
               <Text level={1}>

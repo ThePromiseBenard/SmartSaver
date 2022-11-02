@@ -46,7 +46,7 @@ export const VideoSection = () => {
         </div>
 
         <div className="flex flex-wrap-reverse md:flex-nowrap justify-between gap-8">
-          <div className="space-y-20 self-center">
+          <div className=" space-y-8 md:space-y-20 self-center">
             <div className="flex flex-wrap gap-3 md:gap-6 items-start">
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineCloudDownload />

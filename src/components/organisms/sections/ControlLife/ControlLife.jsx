@@ -6,7 +6,7 @@ import Text from "../../../atoms/Text";
 export const ControlLife = () => {
   return (
     <div className="containerBox scroll-mt-20" id="insurance">
-      <div className=" mt-14 md:mt-28 xl:mt-48 mb-24 grid md:grid-cols-2 gap-4 md:gap-16 ">
+      <div className="  md:mt-28 xl:mt-48 pb-10 md:pb-24 grid md:grid-cols-2 gap-4 md:gap-16 ">
         <div className="bg-smartOrange pt-4 px-4 md:px-8 md:pt-8 rounded-2xl flex items-center justify-center  2xl:w-[529px]">
           <div className="w-52 md:w-auto">
             <SmartImage src={ControlImage} alt="loan image" />

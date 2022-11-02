@@ -13,8 +13,8 @@ export const Accordion = ({ title, paragraph }) => {
       <div
         className={
           open
-            ? "border shadow-md transition-all   ease-in rounded-md p-4 max-w-[880px] mx-auto mt-8 space-y-8 "
-            : "border rounded-md p-4 md:w-[700px] lg:w-[880px] mx-auto mt-8 space-y-8 h-[76px] z-10"
+            ? "border shadow-md transition-all   ease-in rounded-md p-4 max-w-[880px] mx-auto  space-y-8 "
+            : "border rounded-md p-4 md:w-[700px] lg:w-[880px] mx-auto  space-y-8 h-[76px] z-10"
         }
       >
         <div className="flex items-center justify-between">

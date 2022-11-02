@@ -13,7 +13,7 @@ export const Community = () => {
             <SmartImage src={communityImage} alt="happy smart customers" />
           </div>
           <div className="z-[8]  relative w-full flex flex-wrap md:flex-nowrap gap-8 justify-around px-4 pt-8 md:py-16 ">
-            <div className="flex gap-6 flex-col justify-center text-center mt-16">
+            <div className="flex gap-6 flex-col justify-center md:text-center mt-16">
               <Heading level={2} className="capitalize">
                 Join Our Community
               </Heading>
