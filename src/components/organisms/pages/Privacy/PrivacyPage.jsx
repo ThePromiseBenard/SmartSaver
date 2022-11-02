@@ -8,27 +8,33 @@ export const PrivacyPage = ({ policies }) => {
 
   return (
     <div className="py-32">
-      <div className="containerBox md:text-center">
-        <Heading className="xl:-ml-40 xl:mb-6" level={2}>
+      <div className="containerBox">
+        <Heading className="xl:-ml-40 xl:mb-6 !text-center" level={2}>
           Our Privacy Policies
         </Heading>
       </div>
       <div className="containerBox min-h-screen xl:h-screen flex gap-6 flex-col xl:flex-row">
         <div className=" xl:w-[268px] sticky top-0 bg-white py-6 xl:py-0">
-          <div className="xl: flex flex-wrap xl:flex-col gap-6 h-full">
+          <div className="xl: flex flex-wrap justify-center md:justify-start xl:flex-col gap-6 h-full">
             <SmartLinks url="#0">
-              <Text color="black">Information we collect</Text>
+              <Text level={2} color="black">
+                Information we collect
+              </Text>
             </SmartLinks>
             <SmartLinks url="#1">
-              <Text color="black">Security</Text>
+              <Text level={2} color="black">
+                Security
+              </Text>
             </SmartLinks>
             <SmartLinks url="#2">
-              <Text color="black">Contacting Us</Text>
+              <Text level={2} color="black">
+                Contacting Us
+              </Text>
             </SmartLinks>
           </div>
         </div>
         <div className=" flex-1 xl:px-10 space-y-6 overflow-y-scroll scroll-smooth ">
-          <div className="prose md: prose-lg max-w-none">
+          <div className="prose md: prose-lg max-w-none text-center md:text-left">
             <p>
               This privacy policy (this Privacy Policy;) explains how personal
               information is collected, used, stored, and disclosed by
@@ -57,7 +63,7 @@ export const PrivacyPage = ({ policies }) => {
               <div
                 id={`${index}`}
                 key={policy.id}
-                className="mt-28 scroll-mt-24"
+                className="mt-28 scroll-mt-24 text-center md:text-left"
               >
                 <p className="text-smartOrange mb-8 font-bold">{policy.part}</p>
                 <div className="prose prose-slate md:prose-lg max-w-none">

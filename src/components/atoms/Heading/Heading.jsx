@@ -6,7 +6,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h1
           className={clsx(
-            " text-4xl md:text-5xl lg:text-6xl font-bold ",
+            " text-4xl md:text-5xl lg:text-6xl font-bold text-center md:text-left ",
             className
           )}
         >
@@ -17,7 +17,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h2
           className={clsx(
-            " text-2xl md:text-40 lg:text-5xl font-bold  leading-8",
+            " text-2xl md:text-40 lg:text-5xl font-bold  leading-8 text-center md:text-left",
             className
           )}
         >
@@ -28,7 +28,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h3
           className={clsx(
-            " text-2xl md:text-4xl lg:text-40 font-bold",
+            " text-2xl md:text-4xl lg:text-40 font-bold text-center md:text-left",
             className
           )}
         >
@@ -39,7 +39,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h4
           className={clsx(
-            " text-2xl md:text-3xl lg:text-4xl font-bold",
+            " text-2xl md:text-3xl lg:text-4xl font-bold text-center md:text-left",
             className
           )}
         >
@@ -50,7 +50,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h5
           className={clsx(
-            " text-xl md:text-2xl lg:text-3xl font-bold",
+            " text-xl md:text-2xl lg:text-3xl font-bold text-center md:text-left",
             className
           )}
         >
@@ -61,7 +61,7 @@ export const Heading = ({ children, level, className }) => {
       return (
         <h6
           className={clsx(
-            " text-lg md:text-xl lg:text-2xl font-bold",
+            " text-lg md:text-xl lg:text-2xl font-bold text-center md:text-left",
             className
           )}
         >

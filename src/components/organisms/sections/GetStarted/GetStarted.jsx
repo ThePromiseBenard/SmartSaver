@@ -17,11 +17,15 @@ export const GetStarted = () => {
             <Heading level={2} className="capitalize text-white">
               ready to get started?
             </Heading>
-            <Text level={3} color="white" className="max-w-xl">
+            <Text
+              level={3}
+              color="white"
+              className="max-w-xl text-center md:text-left"
+            >
               With great Savings and loans features, SmartSaver is smarter than
               your bank
             </Text>
-            <div className="space-x-4">
+            <div className="space-x-4 flex items-center justify-center md:justify-start">
               <Button variant="playLight" />
               <Button variant="appleLight" />
             </div>

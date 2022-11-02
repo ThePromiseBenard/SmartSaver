@@ -12,7 +12,7 @@ export const ControlLife = () => {
             <SmartImage src={ControlImage} alt="loan image" />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <CardText title="Control Your Life">
             <Text level={1} color="black">
               Insure your health and properties with different Insurance plans

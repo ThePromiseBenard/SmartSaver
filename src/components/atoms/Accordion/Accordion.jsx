@@ -9,7 +9,7 @@ export const Accordion = ({ title, paragraph }) => {
   };
 
   return (
-    <div className="containerBox mx-auto ">
+    <div className="containerBox mx-auto  ">
       <div
         className={
           open
@@ -18,12 +18,7 @@ export const Accordion = ({ title, paragraph }) => {
         }
       >
         <div className="flex items-center justify-between">
-          <Text
-            level={1}
-            className={
-              open ? "!text-smartOrange " : ""
-            }
-          >
+          <Text level={1} className={open ? "!text-smartOrange " : ""}>
             {title}
           </Text>
           <div className="text-2xl cursor-pointer">
@@ -36,7 +31,7 @@ export const Accordion = ({ title, paragraph }) => {
         </div>
 
         {open ? (
-          <div className="max-w-[771px]">
+          <div className="max-w-[771px] text-center md:text-left">
             <Text level={2}>{paragraph}</Text>
           </div>
         ) : (

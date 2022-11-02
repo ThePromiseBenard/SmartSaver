@@ -8,7 +8,7 @@ export const AboutSection = () => {
   return (
     <div className=" pb-20 mt-8">
       <div className="containerBox grid xl:grid-cols-2 gap-16">
-        <div className="space-y-8">
+        <div className="space-y-8 text-center md:text-left">
           <div className="space-y-6">
             <Heading level={4}>
               What is <span className="text-smartOrange">Smart</span>

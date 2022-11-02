@@ -12,7 +12,7 @@ export const InstantLoan = () => {
             <SmartImage src={LoanImage} alt="loan image" />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <CardText title="Access to Instant Loans.">
             <Text level={1} color="black">
               Apply 24/7 and receive funds in your SmartSaver wallet within

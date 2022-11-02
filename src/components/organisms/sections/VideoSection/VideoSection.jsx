@@ -29,7 +29,7 @@ export const VideoSection = () => {
 
   return (
     <div className="containerBox relative">
-      <div className=" space-y-14 md:space-y-16 py-14 md:py-28 xl:py-32">
+      <div className=" space-y-14 md:space-y-16 py-14 md:py-28 xl:py-32 text-center md:text-left">
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-4">
             <Heading level={4}>Let’s Get you started on SmartSaver!</Heading>
@@ -39,7 +39,7 @@ export const VideoSection = () => {
             </Text>
           </div>
 
-          <div className="flex md:justify-center items-center gap-4 xl:ml-36">
+          <div className="flex justify-center md:justify-start items-center gap-4 xl:ml-36">
             <Button variant="appleOrange" />
             <Button variant="playOrange" />
           </div>
@@ -47,7 +47,7 @@ export const VideoSection = () => {
 
         <div className="flex flex-wrap-reverse md:flex-nowrap justify-between gap-8">
           <div className=" space-y-8 md:space-y-20 self-center">
-            <div className="flex flex-wrap gap-3 md:gap-6 items-start">
+            <div className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start w-64 md:w-auto mx-auto">
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineCloudDownload />
               </div>
@@ -59,7 +59,7 @@ export const VideoSection = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex flex-wrap gap-3 md:gap-6 items-start">
+            <div className="flex justify-center md:justify-start flex-wrap gap-3 md:gap-6 items-start w-64 md:w-auto mx-auto">
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineUserAdd />
               </div>
@@ -72,7 +72,7 @@ export const VideoSection = () => {
               </div>
             </div>
 
-            <div className="flex flex-wrap gap-3 md:gap-6 items-start">
+            <div className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start  md:w-auto mx-auto">
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange  flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineDatabase />
               </div>

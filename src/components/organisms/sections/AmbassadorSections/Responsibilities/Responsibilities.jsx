@@ -26,9 +26,10 @@ export const Responsibilities = () => {
   return (
     <div className="containerBox">
       <div className=" space-y-10 pb-16 xl:space-y-24 mt-8">
-        <div className="text-left xl:text-center">
-          <Heading level={3}>
-            Responsibilities of a <span className="text-smartOrange">smart</span>
+        <div>
+          <Heading className=" xl:!text-center" level={3}>
+            Responsibilities of a{" "}
+            <span className="text-smartOrange">smart</span>
             saver ambassador
           </Heading>
         </div>
@@ -37,7 +38,7 @@ export const Responsibilities = () => {
             return (
               <div
                 key={item.id}
-                className="md:space-y-6 space-y-2 xl:px-[1.55rem] bg-white shadow-lg hover:shadow-xl transition-all delay-100 ease-in p-4"
+                className="md:space-y-6 space-y-2 xl:px-[1.55rem] bg-white shadow-lg hover:shadow-xl transition-all delay-100 ease-in p-4 text-center md:text-left"
               >
                 <Heading level={5}>{item.title}</Heading>
                 <Text level={2}>{item.paragraph}</Text>
@@ -45,7 +46,7 @@ export const Responsibilities = () => {
             );
           })}
         </div>
-        <div className="flex md:justify-center">
+        <div className="flex justify-center ">
           <ApplyNow />
         </div>
       </div>

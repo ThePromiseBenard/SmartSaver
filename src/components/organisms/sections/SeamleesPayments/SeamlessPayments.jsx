@@ -12,7 +12,7 @@ export const SeamlessPayments = () => {
             <SmartImage src={PaymentImage} alt="payments image" />
           </div>
         </div>
-        <div className="flex justify-center items-center md:col-start-1 md:row-start-1 max-w-[500px]">
+        <div className="flex justify-center  items-center md:col-start-1 md:row-start-1 max-w-[500px]">
           <CardText title="Seamless payments, at little or no cost">
             <Text level={1} color="black">
               You can send money to anyone, pay all your bills, and recharge

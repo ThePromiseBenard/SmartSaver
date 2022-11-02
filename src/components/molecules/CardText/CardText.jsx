@@ -3,7 +3,7 @@ import Button from "../../atoms/Button";
 
 export const CardText = ({ title, children }) => {
   return (
-    <div className=" space-y-4 md:space-y-8">
+    <div className=" space-y-4 md:space-y-8 text-center md:text-left">
       <Heading level={2}>{title}</Heading>
       {children}
       <div className="space-x-4">

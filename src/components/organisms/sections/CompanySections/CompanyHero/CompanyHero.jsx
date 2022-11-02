@@ -18,14 +18,14 @@ export const CompanyHero = () => {
                 Responsible and Sustainable Financial Inclusion
               </Heading>
             </div>
-            <Text className="max-w-[500px]" level={1}>
+            <Text className="max-w-[500px] text-center md:text-left" level={1}>
               SmartSaver aims to provide smart, flexible and disciplined
               financial products, high yield earning on savings, insurance and
               access to cheap loans in a unique secured platform.
             </Text>
           </div>
         </div>
-        <div className="bg-smartOrange flex items-end ">
+        <div className="bg-smartOrange flex items-end justify-center ">
           <div className="absolute bottom-0 right-8 w-[650px] hidden xl:block  ">
             <SmartImage src={HeroImage} alt="black smart girl" priority={true}  />
           </div>

@@ -20,7 +20,7 @@ export const AmbassadorHero = () => {
                 Ambassador.
               </Heading>
             </div>
-            <Text className="max-w-[620px] " level={1}>
+            <Text className="max-w-[620px] text-center md:text-left" level={1}>
               SmartSaver ambassador program is a community of creative and
               influential young men and women from different representative of
               life who are representatives of SmartSaver brand at their various
@@ -28,7 +28,7 @@ export const AmbassadorHero = () => {
               activation.
             </Text>
 
-            <div>
+            <div className="flex items-center justify-center md:justify-start">
               <ApplyNow />
             </div>
           </div>

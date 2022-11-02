@@ -14,9 +14,9 @@ import Star from "../../../../../public/starBg.png";
 export const HomeHero = () => {
   return (
     <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16 md:mb-32">
-      <div className="bg-smartGrayBg space-y-16 md:space-y-28 xl:space-y-32  pt-16 md:pt-24 xl:pt-52 xl:col-span-2">
+      <div className="bg-smartGrayBg space-y-10 md:space-y-28 xl:space-y-32  pt-16 md:pt-24 xl:pt-52 xl:col-span-2">
         <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
-          <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]  md:right-[25%] xl:right-[35%]">
+          <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]   md:right-[25%] xl:right-[35%]">
             <SmartImage src={Star} alt="star back ground" />
           </div>
           <div className="relative">
@@ -26,18 +26,18 @@ export const HomeHero = () => {
             >
               Smarter Than your Bank
             </Heading>
-            <div className="absolute z-[4] bottom-[39px] md:bottom-[44px] lg:bottom-[50px] w-44 md:w-48 lg:w-60">
+            <div className="absolute z-[4] bottom-[39px] right-[9.5rem] md:right-auto md:bottom-[44px] lg:bottom-[50px] w-44 md:w-48 lg:w-60">
               <div className="w-32 md:w-auto">
                 <SmartImage src={HeaderUnderline} alt="text underline" />
               </div>
             </div>
           </div>
-          <Text className="max-w-[500px]" level={1}>
+          <Text className="max-w-[500px] text-center md:text-left" level={1}>
             Get a free Bank account; unlock the power of savings & investment,
             earn high interest on your savings, pay bills and access cheap
             loans.
           </Text>
-          <div className="space-x-4">
+          <div className="space-x-4 flex items-center justify-center md:justify-start">
             <Button variant="appleOrange" />
             <Button variant="playOrange" />
           </div>
@@ -62,7 +62,7 @@ export const HomeHero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-smartOrange flex items-end ">
+      <div className="bg-smartOrange flex justify-end items-end ">
         <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
           <SmartImage src={HeroImage} priority={true} alt="smart app image" />
         </div>

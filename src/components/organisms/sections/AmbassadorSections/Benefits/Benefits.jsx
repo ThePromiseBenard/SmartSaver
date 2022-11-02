@@ -53,7 +53,7 @@ export const Benefits = () => {
             return (
               <div
                 key={item.id}
-                className="bg-white py-10 px-6 shadow-md  space-y-3 md:space-y-6"
+                className="bg-white py-10 px-6 shadow-md  space-y-3 md:space-y-6 text-center md:text-left"
               >
                 <Heading>{item.title}</Heading>
                 <Text>{item.paragraph}</Text>
@@ -61,7 +61,7 @@ export const Benefits = () => {
             );
           })}
         </div>
-        <div className="flex items-center md:justify-center">
+        <div className="flex items-center justify-center">
           <ApplyNow />
         </div>
       </div>

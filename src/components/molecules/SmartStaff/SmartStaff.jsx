@@ -18,7 +18,7 @@ export const SmartStaff = ({ members }) => {
               fit="scale"
             />
           </div>
-          <div className="w-full h-full absolute inset-0 p-4 flex flex-col justify-end bg-black/40 xl:opacity-0 hover:opacity-100 transition-all delay-150 ease-in-out">
+          <div className="w-full h-full absolute inset-0 p-4 flex flex-col justify-end bg-black/40 xl:opacity-0 hover:opacity-100 transition-all delay-150 ease-in-out text-center md:text-left">
             <Heading className="!text-white/70">{teamMember.fullName}</Heading>
             <Text level={2} className="!text-white/70">
               {teamMember.position}
