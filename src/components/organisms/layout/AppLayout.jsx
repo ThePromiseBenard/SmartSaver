@@ -2,6 +2,7 @@
 import Head from "next/head";
 import Footer from "../../molecules/Footer";
 import NavBar from "../../molecules/NavBar";
+import Salesiq from "../../../pages/salesiq";
 
 export const AppLayout = ({ children, ...customMeta }) => {
   const meta = {
@@ -74,7 +75,10 @@ export const AppLayout = ({ children, ...customMeta }) => {
       <main>{children}</main>
       {/* Footer component goes here */}
       <Footer />
-      
+      <Salesiq
+        widgetCode="06ec0ec6ae2d041c1270b3f7aa08ee7ea937c199d590bb8cff673a3d578625bb"
+        domain="https://salesiq.zoho.com/widget"
+      />
     </div>
   );
 };
