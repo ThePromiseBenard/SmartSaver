@@ -16,7 +16,7 @@ export const WaysList = () => {
     },
     {
       title: "Super Lock",
-      paragraph: "Interest of your super fixed deposit up to 30% pa.",
+      paragraph: "Interest of your super fixed deposit up to 75% in 36 months",
       icon: <MdHttps />,
       className: " bg-smartPurpleIcon text-smartPurple ",
       id: 2,
