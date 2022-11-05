@@ -21,9 +21,9 @@ export const NavBar = ({ className }) => {
 
   return (
     <nav className={className}>
-      <div className="  py-4 bg-transparent  absolute w-full">
+      <div className=" z-[100]  bg-white fixed w-full shadow-lg ">
         <div className="containerBox flex items-center justify-between gap-4">
-          <div className=" z-20">
+          <div className=" z-20 py-6">
             <SmartLinks url="/">
               <div className="w-40 md:w-52">
                 <SmartImage src={SmartLogo} alt="Smart saver Logo" />

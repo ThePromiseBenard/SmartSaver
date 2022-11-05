@@ -10,12 +10,18 @@ import HeroImage from "../../../../../public/HomeHero Image2.png";
 import SmartImage from "../../../atoms/SmartImage";
 import Button from "../../../atoms/Button";
 import Star from "../../../../../public/starBg.png";
+import { motion } from "framer-motion";
 
 export const HomeHero = () => {
   return (
-    <div className="grid md:grid-cols-2 xl:grid-cols-3  relative heroContainer mb-16 md:mb-32">
+    <div className="grid md:grid-cols-2 xl:grid-cols-3 pt-8  relative heroContainer mb-16 md:mb-32">
       <div className="bg-smartGrayBg space-y-10 md:space-y-28 xl:space-y-32  pt-16 md:pt-24 xl:pt-52 xl:col-span-2">
-        <div className="containerBox space-y-4 md:space-y-8 cautionClass  relative">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          className="containerBox space-y-4 md:space-y-8 cautionClass  relative"
+        >
           <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]   md:right-[25%] xl:right-[35%]">
             <SmartImage src={Star} alt="star back ground" />
           </div>
@@ -41,28 +47,59 @@ export const HomeHero = () => {
             <Button variant="appleOrange" />
             <Button variant="playOrange" />
           </div>
-        </div>
-        <div className="w-full bg-white  xl:pr-16   containerBox cautionClass">
+        </motion.div>
+        <motion.div
+          initial={{ x: "-100%" }}
+          animate={{ x: "0%" }}
+          transition={{ ease: "easeOut", duration: 2 }}
+          className="w-full bg-white  xl:pr-16   containerBox cautionClass"
+        >
           <div className="flex items-center gap-2 md:gap-4 xl:gap-16 py-4">
-            <div className="">
+            <motion.div
+              initial={{ x: "-100%" }}
+              animate={{ x: "0%" }}
+              transition={{ ease: "easeOut", duration: 4 }}
+              className=""
+            >
               <SmartImage src={Paystack} alt="paystack logo" />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ x: "-100%" }}
+              animate={{ x: "0%" }}
+              transition={{ ease: "easeOut", duration: 4 }}
+            >
               <SmartImage src={Capricon} alt="capricon logo" />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ x: "-100%" }}
+              animate={{ x: "0%" }}
+              transition={{ ease: "easeOut", duration: 4 }}
+            >
               <SmartImage src={Sterling} alt="sterling bank logo" />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ x: "-100%" }}
+              animate={{ x: "0%" }}
+              transition={{ ease: "easeOut", duration: 4 }}
+            >
               <SmartImage src={Providous} alt="providous bank logo" />
-            </div>
-            <div>
+            </motion.div>
+            <motion.div
+              initial={{ x: "-100%" }}
+              animate={{ x: "0%" }}
+              transition={{ ease: "easeOut", duration: 2 }}
+            >
               <SmartImage src={Firstcapitol} alt="first capitol logo" />
-            </div>
+            </motion.div>
           </div>
-        </div>
+        </motion.div>
       </div>
-      <div className="bg-smartOrange flex justify-end items-end ">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2.5 }}
+        className="bg-smartOrange flex justify-end items-end "
+      >
         <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">
           <SmartImage src={HeroImage} priority={true} alt="smart app image" />
         </div>
@@ -72,7 +109,7 @@ export const HomeHero = () => {
           </div>
         </div>
         <div></div>
-      </div>
+      </motion.div>
     </div>
   );
 };
