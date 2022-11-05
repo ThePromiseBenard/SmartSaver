@@ -9,13 +9,16 @@ export const TermsPage = ({ conditions }) => {
   return (
     <div className="py-32">
       <div className="containerBox ">
-        <Heading className="xl:-ml-32 xl:mb-6 !text-center" level={2}>
+        <Heading
+          className="xl:-ml-32 xl:mb-6 !text-left md:!text-center"
+          level={2}
+        >
           Terms and Conditions
         </Heading>
       </div>
       <div className="containerBox min-h-screen xl:h-screen flex gap-6 flex-col xl:flex-row">
         <div className=" xl:w-[268px] sticky top-0 bg-white py-6 xl:py-0">
-          <div className="xl: flex flex-wrap justify-center md:justify-start xl:flex-col gap-6 h-full">
+          <div className="xl: flex flex-wrap justify-start xl:flex-col gap-6 h-full">
             <SmartLinks url="#0">
               <Text color="black">PART A- General Provisions</Text>
             </SmartLinks>
@@ -31,7 +34,7 @@ export const TermsPage = ({ conditions }) => {
           </div>
         </div>
         <div className=" flex-1 xl:px-10 space-y-6 overflow-y-scroll scroll-smooth ">
-          <div className="prose md: prose-lg max-w-none text-center md:text-left">
+          <div className="prose md: prose-lg max-w-none text-left">
             <p>
               This Agreement is a financial services and an end-user licence
               agreement between you (“End-user” “Borrower” or “You”) and the
@@ -61,7 +64,7 @@ export const TermsPage = ({ conditions }) => {
               <div
                 id={`${index}`}
                 key={term.id}
-                className="mt-28 scroll-mt-24 text-center md:text-left"
+                className="mt-28 scroll-mt-24 text-left"
               >
                 <p className="text-smartOrange mb-8 font-bold">{term.part}</p>
                 <div className="prose prose-slate md:prose-lg max-w-none">

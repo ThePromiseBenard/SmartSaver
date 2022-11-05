@@ -31,7 +31,7 @@ export const Accordion = ({ title, paragraph }) => {
         </div>
 
         {open ? (
-          <div className="max-w-[771px] text-center md:text-left">
+          <div className="max-w-[771px] text-left">
             <Text level={2}>{paragraph}</Text>
           </div>
         ) : (
