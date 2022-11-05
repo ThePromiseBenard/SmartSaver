@@ -4,11 +4,17 @@ import FeaturesLeft from "../../../molecules/FeaturesLeft";
 import FeaturesRight from "../../../molecules/FeaturesRight";
 import featureImage from "../../../../../public/Features Image.png";
 import SmartImage from "../../../atoms/SmartImage";
+import { motion } from "framer-motion";
 
 export const FeaturesSection = () => {
   return (
     <div className=" space-y-8 md:space-y-16 containerBox ">
-      <div className=" space-y-4 mt-8 md:!text-center">
+      <motion.div
+        initial={{ y: 50 }}
+        whileInView={{ y: 0 }}
+        transition={{ ease: "easeInOut", duration: 1 }}
+        className=" space-y-4 mt-8 md:!text-center"
+      >
         <Heading className="md:!text-center" level={3}>
           Built With You In Mind
         </Heading>
@@ -17,12 +23,17 @@ export const FeaturesSection = () => {
           disciplined financial inclusiveness in a responsible and sustainable
           way.
         </Text>
-      </div>
+      </motion.div>
       <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:pb-28">
         <FeaturesLeft />
-        <div className="hidden lg:block">
+        <motion.div
+          initial={{ y: 50 }}
+          whileInView={{ y: 0 }}
+          transition={{ ease: "easeInOut", duration: 1 }}
+          className="hidden lg:block"
+        >
           <SmartImage src={featureImage} alt="woman smilling" />
-        </div>
+        </motion.div>
         <FeaturesRight />
       </div>
     </div>
