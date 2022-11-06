@@ -18,7 +18,7 @@ export const FeaturesSection = () => {
         <Heading className="md:!text-center" level={3}>
           Built With You In Mind
         </Heading>
-        <Text level={1} className="max-w-[919px] mx-auto">
+        <Text level={1} className="max-w-[919px] mx-auto text-center">
           We are a Fintech Service Company developed to offer flexible and
           disciplined financial inclusiveness in a responsible and sustainable
           way.
