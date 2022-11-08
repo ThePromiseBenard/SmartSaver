@@ -89,19 +89,19 @@ export const Footer = () => {
               Care@smartsaver.ng
             </a>
             <a
-              href="tel:+234 701 444 9223"
+              href="tel:+0700SMARTSAVER"
               className="flex items-center gap-2 my-4"
             >
               <span>
                 <IoPhonePortrait size={24} className="text-smartOrange" />
               </span>
-              080 000 0000 000
+              0700SMARTSAVER
             </a>
             <a href="#" className="flex items-center gap-2 my-4">
               <span>
                 <IoLocation size={24} className="text-smartOrange" />
               </span>
-              No, 9, The providence street, Lekki phase 1, Lekki, Lagos.
+              No, 8, The providence street, Lekki phase 1, Lekki, Lagos.
             </a>
             <a
               href="https://wa.me/message/JHSRKEQRR46CK1"
