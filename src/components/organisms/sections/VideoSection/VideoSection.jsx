@@ -4,6 +4,7 @@ import Button from "../../../atoms/Button";
 import VideoImage from "../../../../../public/Video-Image.png";
 import { useState, useEffect } from "react";
 import SmartImage from "../../../atoms/SmartImage";
+import { motion } from "framer-motion";
 import {
   AiOutlineCloudDownload,
   AiOutlineUserAdd,
@@ -47,7 +48,13 @@ export const VideoSection = () => {
 
         <div className="flex flex-wrap-reverse md:flex-nowrap justify-between gap-8">
           <div className=" space-y-8 md:space-y-20 self-center">
-            <div className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start w-64 md:w-auto mx-auto">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ ease: "easeInOut" }}
+              viewport={{ once: "true" }}
+              className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start w-64 md:w-auto mx-auto"
+            >
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineCloudDownload />
               </div>
@@ -58,8 +65,14 @@ export const VideoSection = () => {
                   Store for iOS.
                 </Text>
               </div>
-            </div>
-            <div className="flex justify-center md:justify-start flex-wrap gap-3 md:gap-6 items-start w-64 md:w-auto mx-auto">
+            </motion.div>
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ ease: "easeInOut", duration: 1 }}
+              viewport={{ once: "true" }}
+              className="flex justify-center md:justify-start flex-wrap gap-3 md:gap-6 items-start w-64 md:w-auto mx-auto"
+            >
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineUserAdd />
               </div>
@@ -70,9 +83,15 @@ export const VideoSection = () => {
                   SmartSaver account quickly.
                 </Text>
               </div>
-            </div>
+            </motion.div>
 
-            <div className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start  md:w-auto mx-auto">
+            <motion.div
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ ease: "easeInOut", duration: 1.5 }}
+              viewport={{ once: "true" }}
+              className="flex flex-wrap gap-3 md:gap-6 items-start justify-center md:justify-start  md:w-auto mx-auto"
+            >
               <div className="h-8 w-8 text-xl md:h-14 md:w-14 text-white bg-smartOrange  flex rounded-lg items-center justify-center md:text-2xl">
                 <AiOutlineDatabase />
               </div>
@@ -84,10 +103,16 @@ export const VideoSection = () => {
                   and bill payments..
                 </Text>
               </div>
-            </div>
+            </motion.div>
           </div>
 
-          <div className="flex items-center">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ ease: "easeInOut", duration: 2 }}
+            viewport={{ once: "true" }}
+            className="flex items-center"
+          >
             <div className="lg:w-[615px] md:w-[400px] relative ">
               <SmartImage src={VideoImage} alt="image cover for smart video" />
               <div
@@ -99,7 +124,7 @@ export const VideoSection = () => {
                 <AiFillPlayCircle />
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
 

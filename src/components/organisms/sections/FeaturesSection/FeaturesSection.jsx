@@ -13,6 +13,7 @@ export const FeaturesSection = () => {
         initial={{ y: 50 }}
         whileInView={{ y: 0 }}
         transition={{ ease: "easeInOut", duration: 1 }}
+        viewport={{once:"true"}}
         className=" space-y-4 mt-8 md:!text-center"
       >
         <Heading className="md:!text-center" level={3}>
@@ -29,6 +30,7 @@ export const FeaturesSection = () => {
         <motion.div
           initial={{ y: 50 }}
           whileInView={{ y: 0 }}
+          viewport={{once:"true"}}
           transition={{ ease: "easeInOut", duration: 1 }}
           className="hidden lg:block"
         >
