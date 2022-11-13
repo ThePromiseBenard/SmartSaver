@@ -19,7 +19,7 @@ export const HomeHero = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 0.3 }}
           className="containerBox space-y-4 md:space-y-8 cautionClass  relative"
         >
           <div className="absolute hidden md:block -top-8 xl:-top-24 xl:w-[427px]   md:right-[25%] xl:right-[35%]">
@@ -51,14 +51,14 @@ export const HomeHero = () => {
         <motion.div
           initial={{ x: "-100%" }}
           animate={{ x: "0%" }}
-          transition={{ ease: "easeOut", duration: 2 }}
+          transition={{ ease: "easeOut", duration: 0.5 }}
           className="w-full bg-white  xl:pr-16   containerBox cautionClass"
         >
           <div className="flex items-center gap-2 md:gap-4 xl:gap-16 py-4">
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
-              transition={{ ease: "easeOut", duration: 4 }}
+              transition={{ ease: "easeOut" }}
               className=""
             >
               <SmartImage src={Paystack} alt="paystack logo" />
@@ -66,28 +66,28 @@ export const HomeHero = () => {
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
-              transition={{ ease: "easeOut", duration: 4 }}
+              transition={{ ease: "easeOut" }}
             >
               <SmartImage src={Capricon} alt="capricon logo" />
             </motion.div>
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
-              transition={{ ease: "easeOut", duration: 4 }}
+              transition={{ ease: "easeOut" }}
             >
               <SmartImage src={Sterling} alt="sterling bank logo" />
             </motion.div>
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
-              transition={{ ease: "easeOut", duration: 4 }}
+              transition={{ ease: "easeOut" }}
             >
               <SmartImage src={Providous} alt="providous bank logo" />
             </motion.div>
             <motion.div
               initial={{ x: "-100%" }}
               animate={{ x: "0%" }}
-              transition={{ ease: "easeOut", duration: 2 }}
+              transition={{ ease: "easeOut" }}
             >
               <SmartImage src={Firstcapitol} alt="first capitol logo" />
             </motion.div>
@@ -97,7 +97,7 @@ export const HomeHero = () => {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 2.5 }}
+        transition={{ duration: 0.3 }}
         className="bg-smartOrange flex justify-end items-end "
       >
         <div className="absolute bottom-0 right-0 w-[680px] hidden xl:block  ">

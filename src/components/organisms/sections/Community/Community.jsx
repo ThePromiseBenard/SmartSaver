@@ -6,7 +6,7 @@ import SmartImage from "../../../atoms/SmartImage";
 
 export const Community = () => {
   return (
-    <div className="containerBox  ">
+    <div className="containerBox overflow-hidden ">
       <div className=" pb-8 md:pb-16 xl:pb-[88px] mb-20 xl:mb-40">
         <div className="relative bg-smartCommunity rounded-lg md:h-[344px] xl:h-[508px] pb-14 xl:pb-0 ">
           <div className="w-full h-full absolute ">

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export const News = () => {
   return (
-    <div className="bg-smartGrayBg pb-8">
+    <div className="bg-smartGrayBg pb-8 overflow-hidden">
       <div className="flex flex-col items-center justify-center pt-32 pb-10 xl:pt-32 xl:pb-20 space-y-14 containerBox">
         <motion.div
           initial={{ y: 50 }}

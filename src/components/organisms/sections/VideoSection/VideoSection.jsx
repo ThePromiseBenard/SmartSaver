@@ -29,7 +29,7 @@ export const VideoSection = () => {
   }, [openModal]);
 
   return (
-    <div className="containerBox relative">
+    <div className="containerBox relative overflow-hidden">
       <div className=" space-y-14 md:space-y-16 py-14 md:py-28 xl:py-32 text-center md:text-left">
         <div className="grid md:grid-cols-2 gap-6">
           <div className="space-y-4">

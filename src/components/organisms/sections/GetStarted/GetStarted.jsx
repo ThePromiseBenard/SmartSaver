@@ -7,7 +7,7 @@ import SmartImage from "../../../atoms/SmartImage";
 
 export const GetStarted = () => {
   return (
-    <div className="containerBox">
+    <div className="containerBox overflow-hidden">
       <div className="relative bg-smartFooterBg rounded-lg md:h-[344px] xl:h-[508px] mt-10 md:mt-20 mb-8 md:mb-28">
         <div className="w-full h-full absolute ">
           <SmartImage src={BgImage} alt="background image" />

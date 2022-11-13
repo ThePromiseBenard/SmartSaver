@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const SavingWays = () => {
   return (
-    <div className="bg-smartGrayBg py-6 md:py-20" id="savings">
+    <div className="bg-smartGrayBg py-6 md:py-20 overflow-hidden" id="savings">
       <div className="containerBox grid gap-10 md:grid-cols-2">
         <motion.div
           initial={{ y: 50, opacity: 0 }}
