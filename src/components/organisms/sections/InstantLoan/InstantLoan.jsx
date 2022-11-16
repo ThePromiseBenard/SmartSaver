@@ -11,7 +11,7 @@ export const InstantLoan = () => {
         <motion.div
           initial={{ x: "-50vh" }}
           whileInView={{ x: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.8 }}
+          transition={{ ease: "easeInOut", duration: 1.8 }}
           viewport={{ once: "true " }}
           className="bg-smartOrange pt-4 px-4 md:px-8 md:pt-8 rounded-2xl  flex items-center justify-center  2xl:w-[529px]"
         >
@@ -22,7 +22,7 @@ export const InstantLoan = () => {
         <motion.div
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1 }}
+          transition={{ ease: "easeInOut", duration: 1.9 }}
           viewport={{ once: "true " }}
           className="flex justify-center items-center "
         >

@@ -11,7 +11,7 @@ export const SeamlessPayments = () => {
         <motion.div
           initial={{ x: "50vh" }}
           whileInView={{ x: 0 }}
-          transition={{ ease: "easeInOut", duration: 0.8 }}
+          transition={{ ease: "easeInOut", duration: 1.8 }}
           viewport={{ once: "true " }}
           className="bg-smartOrange pt-4 px-4 rounded-2xl md:col-start-2 md:px-8 md:pt-8  2xl:w-[529px] flex items-center justify-center"
         >
@@ -22,7 +22,7 @@ export const SeamlessPayments = () => {
         <motion.div
           initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ ease: "easeInOut", duration: 1 }}
+          transition={{ ease: "easeInOut", duration: 1.9 }}
           viewport={{ once: "true " }}
           className="flex justify-center  items-center md:col-start-1 md:row-start-1 max-w-[500px]"
         >

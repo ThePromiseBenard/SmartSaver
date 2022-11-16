@@ -14,7 +14,7 @@ import Button from "../../atoms/Button";
 
 export const Footer = () => {
   return (
-    <footer className=" bg-smartFooterBg w-full lg:pt-16 md:space-y-16 pb-8">
+    <footer className=" bg-smartFooterBg w-full lg:pt-16 md:space-y-16 pb-8 h-[1100px] md:h-[800px] lg:h-[600px]">
       <div className="containerBox text-smartFooter flex flex-col md:flex-row  justify-between flex-wrap">
         <div className="flex gap-20  xl:gap-44 py-4">
           <div className="py-4">
