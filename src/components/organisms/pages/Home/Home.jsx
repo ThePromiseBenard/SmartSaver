@@ -14,13 +14,13 @@ export const Home = () => {
     <div className="">
       <HomeHero />
       <FeaturesSection />
+      <SavingWays />
       <InstantLoan />
       <SeamlessPayments />
       <ControlLife />
-      <SavingWays />
       <GetStarted />
       <News />
-      <VideoSection/>
+      <VideoSection />
       <Community />
     </div>
   );
