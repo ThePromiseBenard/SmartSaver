@@ -1,12 +1,8 @@
-import { AppLayout } from "../components/organisms/layout/AppLayout";
-import { Home } from "../components/organisms/pages/Home/Home";
-
-const Landing = () => {
+const ComingSoon = () => {
   return (
-    <AppLayout title="Home">
-      <Home />
-    </AppLayout>
+    <div className="h-screen flex items-center justify-center text-white bg-green-700 text-5xl">
+      coming Soon
+    </div>
   );
 };
-
-export default Landing;
+export default ComingSoon;
